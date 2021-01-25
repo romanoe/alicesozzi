@@ -1,26 +1,21 @@
 {
   "name": "alicesozzi",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/romanoe/alicesozzi.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/romanoe/alicesozzi/issues"
-  },
-  "homepage": "https://github.com/romanoe/alicesozzi#readme",
   "dependencies": {
-    "axios": "^0.21.1",
-    "gatsby": "^2.31.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "ant-design-vue": "^1.7.2",
+    "core-js": "^3.8.2",
+    "nuxt": "^2.14.12"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.3",
+    "less": "^4.1.0",
+    "less-loader": "^7.3.0"
   }
 }
