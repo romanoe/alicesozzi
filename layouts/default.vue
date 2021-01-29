@@ -1,7 +1,15 @@
 <template>
-  <div>
-    <Nuxt />
+<div>
+  <div class = 'img-background-header'>
+    <img src='~/assets/img/home_Fruitgrenade@2x.png' />
   </div>
+  <Header />
+
+  <Menu/>
+
+  <Nuxt />
+  <!-- <Footer/> -->
+</div>
 </template>
 
 <style>
@@ -31,32 +39,22 @@ html {
   margin: 0;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
+h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  color: #C7287D;
 }
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
+.img-background-header {
+    position: relative;
+      z-index: -1;
 }
 
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
+.img-background-header img{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
 }
 
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
 </style>

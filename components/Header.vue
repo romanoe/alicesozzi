@@ -1,19 +1,31 @@
 <!-- Style -->
 <style>
-/* .ant-layout-header {
-  background-color: white;
-} */
 
-#site_name {
+.img-alice-header {
+  vertical-align: middle;
+  padding : 0 20px 0 20px;
+}
+
+.text-alice {
+  display: inline-block;
+
+}
+
+.container-header {
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+}
+
+.title {
   font-weight: bold;
-  color : #C7287D;
+  font-size: large;
 }
 
-
-#subtitle {
-  color : #C7287D;
+.subtitle {
+  font-weight: 300;
+  font-size: medium;
 }
-
 
 </style>
 
@@ -23,19 +35,14 @@
 <div>
 
 
-  <!-- <a-row type="flex" justify="center">
-    <a-col :span="6"> -->
-      Ciao
-      <!-- <img src="/assets/img/AliceSozzi.png"> -->
-<!--
-    </a-col>
-    <a-col :span="6"> -->
-      <!-- <p ><span id = "site_name">CABINET DE SOINS ALICE SOZZI</span></p> -->
-      <!-- <p ><span id = "subtitle" >PSYCHOLOGUE ET FASCIATHÉRAPEUTE, AGRÉE ASCA, RME</span></p> -->
-    <!-- </a-col> -->
-
-  <!-- </a-row> -->
-
+        <div class = 'container-header'>
+        <img class = 'img-alice-header' src='~/assets/img/AliceSozzi.png' />
+        <h4 class= 'text-alice'>
+          <span class = 'title'> CABINET DE SOINS ALICE SOZZI</span>
+          <br>
+          <span class = 'subtitle'>PSYCHOLOGUE ET FASCIATHÉRAPEUTE, AGRÉE ASCA, RME</span>
+        </h4>
+      </div>
 
 
 </div>
