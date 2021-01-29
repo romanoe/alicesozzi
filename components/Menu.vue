@@ -37,6 +37,7 @@
 
     <NuxtLink to="/contact">CONTACT</NuxtLink>
 
+
 </div>
 </template>
 
