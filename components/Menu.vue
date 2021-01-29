@@ -25,8 +25,8 @@
 
 
 <template>
-<div class='menu'>
 
+<div class="menu">
     <NuxtLink to="/traitements">LES TRAITEMENTS</NuxtLink>
 
     <NuxtLink to="/fascia">QU'EST-CE QU'UN FASCIA ?</NuxtLink>
@@ -36,9 +36,8 @@
     <NuxtLink to="/info-tarifs">INFORMATIONS ET TARIFS</NuxtLink>
 
     <NuxtLink to="/contact">CONTACT</NuxtLink>
-
-
 </div>
+
 </template>
 
 <!-- Script -->

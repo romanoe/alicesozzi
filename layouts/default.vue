@@ -1,14 +1,35 @@
 <template>
 <div>
-  <div class = 'img-background-header'>
-    <img src='~/assets/img/home_Fruitgrenade@2x.png' />
-  </div>
-  <Header />
 
-  <Menu/>
 
-  <Nuxt />
-  <!-- <Footer/> -->
+
+  <v-app>
+
+<!-- Backgroun image top-->
+    <div class='img-background-header'>
+      <img src='~/assets/img/home_Fruitgrenade@2x.png' />
+    </div>
+
+<!-- Header -->
+    <Header />
+
+<!-- Menu -->
+    <Menu />
+
+<!-- Main content (pages' content) -->
+    <v-main>
+      <Nuxt />
+    </v-main>
+
+<!-- Footer -->
+    <Footer />
+
+<!-- Bacground image botton -->
+    <div class='img-background-footer'>
+      <img src='~/assets/img/AliceSozzi_plantes@2x.png' />
+    </div>
+  </v-app>
+
 </div>
 </template>
 
@@ -32,11 +53,8 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
+#app {
+  background: rgba(0, 0, 0, 0);
 }
 
 h4 {
@@ -46,16 +64,26 @@ h4 {
 }
 
 .img-background-header {
-    position: relative;
-      z-index: -1;
+  position: relative;
+  z-index: -1;
 }
 
-.img-background-header img{
+.img-background-header img {
   position: absolute;
   top: 0px;
   right: 0px;
 
 }
 
+.img-background-footer {
+  position: relative;
+  z-index: -1;
+}
 
+.img-background-footer img {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+
+}
 </style>
