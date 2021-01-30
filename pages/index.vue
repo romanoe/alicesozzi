@@ -34,6 +34,10 @@
   margin: auto;
   width: 80%;
 }
+
+/* .text-right {
+  text-align: right;
+} */
 </style>
 
 
@@ -61,8 +65,10 @@
       <br>
       <br>
 
+      <div id='text-right'>
       <span class='text-home-page'>… Et par l’entretien psychologique, comprendre l’origine de la douleur et prendre conscience de l’impact sur le corps et de la façon de penser.
       </span>
+    </div>
     </v-col>
 
   </v-row>
