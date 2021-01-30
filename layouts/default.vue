@@ -93,7 +93,7 @@ a {
 }
 
 
-.menu a {
+.menu a, .v-application a {
   text-decoration: none;
   color: #C7287D;
   padding-right: 20px;
