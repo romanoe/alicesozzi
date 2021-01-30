@@ -16,7 +16,7 @@
 <!-- Menu -->
     <Menu />
 
-<!-- Main content (pages' content) -->
+<!-- Main content (pages) -->
     <v-main>
       <Nuxt />
     </v-main>

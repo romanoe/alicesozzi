@@ -8,7 +8,7 @@
 <template>
 <div class= 'menu-mobile'>
 
-ciao
+
           <!-- <NuxtLink to="/traitements">LES TRAITEMENTS</NuxtLink>
 
 
