@@ -95,7 +95,7 @@
 
     <v-spacer></v-spacer>
 
-    <v-row align class="custom-row">
+    <v-row class="custom-row">
       <v-col>
         <img src='~/assets/img/AliceSozzi_fatigue@2x.png' />
         <div class='text-mes-actions'>
