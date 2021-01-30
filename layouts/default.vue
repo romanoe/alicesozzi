@@ -89,5 +89,16 @@ h4 {
 
 a {
   text-decoration: none;
+
 }
+
+
+.menu a {
+  text-decoration: none;
+  color: #C7287D;
+  padding-right: 20px;
+  padding-left: 20px;
+  z-index: 1
+}
+
 </style>
