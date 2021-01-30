@@ -92,8 +92,13 @@ a {
 
 }
 
+.v-application a {
+  text-decoration: none;
+  color: #C7287D;
 
-.menu a, .v-application a {
+}
+
+.menu a {
   text-decoration: none;
   color: #C7287D;
   padding-right: 20px;
