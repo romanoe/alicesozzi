@@ -28,6 +28,7 @@
 
 .row-footer {
   margin: 0 10% 0 10%;
+  /* bottom-top :  */
 
 }
 
@@ -52,8 +53,13 @@
 .asca {
   text-align:  center;
 }
-</style>
 
+
+.v-footer {
+  height: auto;
+}
+
+</style>
 
 
 <!-- Template -->
@@ -63,10 +69,9 @@
 
   <v-footer absolute app>
 
-
-    <v-row class='divider-footer'></v-row>
-      <v-row class="row-footer" align="center">
-        <v-col cols='4'>
+      <v-row class="row-footer" justify="center">
+        <v-spacer></v-spacer>
+        <v-col cols='12' md = 3 sm = 1>
           <div class="contact-container">
             <img class='img-alice-footer' src='~/assets/img/AliceSozzi.png' />
             <span class="text-alice">
@@ -80,7 +85,7 @@
           </div>
         </v-col>
 
-        <v-col cols='3'>
+        <v-col cols='12' md = 2 sm = 1>
           <span class="text-alice">
             <span class="footer-title">INFORMATIONS</span><br><br>
             Remboursé ASCA RME.
@@ -89,9 +94,8 @@
           </span>
         </v-col>
 
-        <v-col cols='5' class='asca'>
+        <v-col cols='12' class='asca' md = 7 sm = 1>
           <img src='~/assets/img/AliceSozzi_asca@2x.png' />
-
         </v-col>
 
       </v-row>

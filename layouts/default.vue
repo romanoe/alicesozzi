@@ -13,8 +13,6 @@
 <!-- Header -->
     <Header />
 
-<!-- Menu -->
-    <Menu />
 
 <!-- Main content (pages) -->
     <v-main>

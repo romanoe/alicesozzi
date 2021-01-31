@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'alicesozzi',
+    title: 'Alice Sozzi | Fasciathérapeute et psychologue',
     htmlAttrs: {
       lang: 'fr'
     },
@@ -39,7 +39,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-
+      {src: '~/plugins/vue-masonry', ssr: false}
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -56,8 +56,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    splitChunks: {
-      pages: false
-    },
+
   }
 }

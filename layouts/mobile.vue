@@ -1,12 +1,33 @@
 <template>
 <div>
 
-  <HeaderMobile />
 
-  <MenuMobile/>
+<v-app>
 
-  <Nuxt />
-  <!-- <Footer/> -->
+    <!-- Backgroun image top-->
+    <div class='img-background-header'>
+      <img src='~/assets/img/home_Fruitgrenade@2x.png' />
+    </div>
+
+    <!-- Header -->
+    <HeaderMobile />
+
+
+
+    <!-- Main content (pages) -->
+    <!-- <v-main> -->
+      <Nuxt />
+    <!-- </v-main> -->
+
+    <!-- Footer -->
+    <Footer />
+
+    <!-- Bacground image botton -->
+    <div class='img-background-footer'>
+      <img src='~/assets/img/AliceSozzi_plantes@2x.png' />
+    </div>
+  </v-app>
+
 </div>
 </template>
 
@@ -44,16 +65,14 @@ h4 {
 }
 
 .img-background-header {
-    position: relative;
-      z-index: -1;
+  position: relative;
+  z-index: -1;
 }
 
-.img-background-header img{
+.img-background-header img {
   position: absolute;
   top: 0px;
   right: 0px;
 
 }
-
-
 </style>

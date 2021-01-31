@@ -41,6 +41,8 @@
       </h4>
     </div>
   </NuxtLink>
+  <Menu/>
+
 </div>
 </template>
 
