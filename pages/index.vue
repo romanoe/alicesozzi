@@ -1,6 +1,9 @@
 <style>
 .custom-row {
-  margin: 2% 5% 0 5%;
+  margin: 2% 3% 0 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .text-home-page {
@@ -15,6 +18,7 @@
 
 .mes-actions {
   background-color: #F7ECDE;
+  opacity: 0.8;
   height: auto;
   text-align: center;
   padding: 3% 0 3% 0;
@@ -22,7 +26,8 @@
 }
 
 #img-actions {
-  height : 200px;
+  height : 150px;
+  margin-bottom: 3%;
 }
 
 #title {
@@ -72,7 +77,8 @@
 
     <v-row justify = "center">
       <v-col cols = 12 md = 4 sm = 1>
-        <span class='text-home-page' >Par le toucher, procurer une détente profonde du corps et soigner la douleur en sollicitant la capacité naturelle du corps à se régénérer…</span>
+        <!-- <span class='text-home-page' >Par le toucher, procurer une détente profonde du corps et soigner la douleur en sollicitant la capacité naturelle du corps à se régénérer…</span> <br> -->
+        <span class='text-home-page' >Par un  toucher subtil , procurer une détente profonde et soigner la douleur en  considérant le corps dans sa globalité.</span>
       </v-col>
 
       <v-col cols = 12 md = 4 sm = 1>
@@ -87,7 +93,7 @@
         <v-img id="img-pensee" :src='require("~/assets/img/home_1@2x.png")' aspect-ratio="1" contain></v-img>
       </v-col>
       <v-col cols = 12 md=4 sm = 1>
-        <span class='text-home-page' >… Et par l’entretien psychologique, comprendre l’origine de la douleur et prendre conscience de l’impact sur le corps et de la façon de penser.</span>
+        <span class='text-home-page' >… Permettre à la personne d’identifier les comportements et les schémas de pensée qui entravent la capacité innée du corps à s’auto-réguler. </span>
       </v-col>
     </v-row>
 
@@ -98,7 +104,7 @@
     <span id='title'>MES ACTIONS</span>
 
     <v-row class="custom-row" justify="center">
-      <v-col md = 3 sm = 1>
+      <v-col md = 2 sm = 1>
         <v-img id="img-actions" :src='require("~/assets/img/AliceSozzi_equilibre@2x.png")' aspect-ratio="1" contain></v-img>
         <div class='text-mes-actions'>
           <span class="text-alice">Rééquilibrer les fonctions et les propriétés des tissus et organes, c’est-à-dire la physiologie, là où elle a été contrariée.</span>
@@ -117,7 +123,7 @@
         <v-img id="img-actions" :src='require("~/assets/img/AliceSozzi_soulager@2x.png")' aspect-ratio="1" contain></v-img>
 
         <div class='text-mes-actions'>
-          <span class="text-alice">Soulager les douleurs et désenflammer. Retrouver sa mobilité et une forme d’aisance et de bien-être corporel.</span>
+          <span class="text-alice">Soulager les douleurs et désenflammer. Retrouver sa mobilité et une forme d’aisance et de bien-être corporel en sollicitant la capacité naturelle du corps à se régénérer</span>
         </div>
       </v-col>
     </v-row>
@@ -166,6 +172,6 @@
 
 <script>
 export default {
-    layout: (ctx) => ctx.$device.isMobile ? 'mobile' : 'default'
+    layout: 'default'
 }
 </script>

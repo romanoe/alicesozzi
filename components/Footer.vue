@@ -12,7 +12,7 @@
 
 
 .img-alice-footer {
-  width: 20%;
+  width: 30%;
   padding: 0 20px 0 20px;
 
 }
