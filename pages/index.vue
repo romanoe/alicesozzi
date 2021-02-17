@@ -32,7 +32,7 @@
 
 #title {
   color: #C7287D;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
 
 }
@@ -53,6 +53,7 @@
   padding: 10px;
   width: 100%;
 }
+
 
 
 

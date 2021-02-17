@@ -75,4 +75,11 @@ h4 {
   right: 0px;
 
 }
+
+p {
+  color : #834B99;
+  font-size: large; 
+}
+
+
 </style>
