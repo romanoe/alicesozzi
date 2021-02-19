@@ -44,3 +44,9 @@
 
 </div>
 </template>
+
+<script>
+export default {
+  layout: (ctx) => ctx.$device.isMobile ? 'mobile' : 'default'
+}
+</script>

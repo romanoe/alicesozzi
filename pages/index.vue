@@ -35,15 +35,21 @@
 
 .intro {
   margin: 0% 5% 5% 0%;
-  z-index: -1;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: -1;
+  position:relative;
 }
+
+
 
 #corps-complice {
   z-index: -1;
 }
+
+
+
 
 
 </style>
@@ -63,7 +69,7 @@
     <div class="intro">
     <v-row justify="center" >
       <v-col cols=12 md=5 sm=1>
-        <span class='text-home-page'>Par un toucher subtil , procurer une détente profonde et soigner la douleur en considérant le corps dans sa globalité...</span>
+        <span class='text-home-page'>Par un toucher subtil, procurer une détente profonde et soigner la douleur en considérant le corps dans sa globalité...</span>
         <v-img id="img-pensee" :src='require("~/assets/img/home_1@2x.png")' aspect-ratio="1" contain></v-img>
       </v-col>
       <v-col cols=12 md=5 sm=1>
@@ -127,10 +133,6 @@
         </div>
       </v-col>
     </v-row>
-
-
-
-
   </div>
 
 </div>
@@ -144,6 +146,6 @@
 
 <script>
 export default {
-  layout: 'default'
+  layout: (ctx) => ctx.$device.isMobile ? 'mobile' : 'default'
 }
 </script>

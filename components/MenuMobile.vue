@@ -2,6 +2,7 @@
 <!-- Style -->
 <style>
 
+
 </style>
 
 
@@ -9,15 +10,14 @@
 <div class='menu-mobile'>
 
   <v-app-bar color="black accent-4" prominent>
-
     <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
 
 <v-spacer></v-spacer>
 <NuxtLink to="/">
   <h5 class='text-alice'>
-    <span class='title'> CABINET DE SOINS ALICE SOZZI</span>
+    <span class='title-mobile'> CABINET DE SOINS ALICE SOZZI</span>
     <br>
-    <span class='subtitle'>PSYCHOLOGUE ET FASCIATHÉRAPEUTE, AGRÉE ASCA, RME</span>
+    <span class='subtitle-mobile'>PSYCHOLOGUE ET FASCIATHÉRAPEUTE, AGRÉE ASCA, RME</span>
   </h5>
 
 </NuxtLink>

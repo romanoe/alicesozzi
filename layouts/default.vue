@@ -35,12 +35,6 @@
 html {
   font-family:
     'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
     sans-serif;
   font-size: 16px;
   word-spacing: 1px;
@@ -50,6 +44,13 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
+
+.v-application {
+    font-family:'Source Sans Pro',
+    sans-serif !important;
+    line-height: 1.5;
+}
+
 
 #app {
   background: rgba(0, 0, 0, 0);

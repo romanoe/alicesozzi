@@ -1,25 +1,14 @@
 <!-- Style -->
 <style>
-.img-alice-header {
-  vertical-align: middle;
-  padding: 0 20px 0 20px;
-}
 
-
-.container-header {
-  margin: auto;
-  width: 40%;
-  padding: 10px;
-}
-
-.title {
+.title-mobile {
   font-weight: bold;
-  font-size: large;
+  font-size: medium;
 }
 
-.subtitle {
+.subtitle-mobile {
   font-weight: 300;
-  font-size: medium;
+  font-size: small;
 }
 
 .v-application .black{
