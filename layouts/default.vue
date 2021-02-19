@@ -45,6 +45,10 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  position: relative; 
+}
+
 .v-application {
     font-family:'Source Sans Pro',
     sans-serif !important;

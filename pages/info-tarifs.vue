@@ -7,7 +7,7 @@
 
 .row-info-tarif {
   padding: 5% 0 2% 0;
-  background-color: rgba(255,255,255,0.4);
+  background-color: rgba(255,255,255,0.5);
 }
 
 #title-info {
@@ -21,26 +21,24 @@
 <div>
 
 
-
-  <v-row justify="center" align="start" class = 'row-info-tarif'>
-    <v-col cols=12 md=4 sm=1>
-      <div class='info-tarif'><span id='title-info'>INFORMATIONS </span></div>
+  <v-container>
+  <v-row justify="center" align="start" class = 'row-info-tarif' >
+    <v-col cols=12 md=6 sm=1>
+      <div class='info-tarif'><p id='title-info' class='text-center'>INFORMATIONS </p></div>
       <div class = 'info-tarif'>
-        <p>Remboursé <b>ASCA RME</b>.</p>
-        <p>Une séance dure environ 1 heure.</p>
-        <p>Il est conseillé de porter des vêtements comfortables puisque le traitement est généralement effectué par-dessus l’habillement.</p>
+        <p class='text-center'>Remboursé <b>ASCA RME</b>.</p>
+        <p class='text-center'>Une séance dure environ 1 heure.</p>
+        <p class='text-center'>Il est conseillé de porter des vêtements comfortables puisque le traitement est généralement effectué par-dessus l’habillement.</p>
 
     </div>
   </v-col>
-
-    <v-col cols=12 md=3 sm=1>
-    <div class='info-tarif'><span id='title-info'>TARIFS </span></div>
-        <p><b>CHF 120.-/heure</b></p>
-        <p>Il est conseillé de se renseigner auprès de votre assurance complémentaire avant le début d'une séance. </p>
+    <v-col  md=6 sm=1>
+    <div class='info-tarif'><p id='title-info'  class='text-center'>TARIFS </p></div>
+        <p class='text-center'><b>CHF 120.-/heure</b></p>
+        <p class='text-center'>Il est conseillé de se renseigner auprès de votre assurance complémentaire avant le début d'une séance. </p>
       </v-col>
-
   </v-row>
-
+</v-container>
 </div>
 </template>
 

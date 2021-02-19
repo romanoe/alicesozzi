@@ -10,6 +10,7 @@
 <div class='menu-mobile'>
 
   <v-app-bar color="black accent-4" prominent>
+
     <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
 
 <v-spacer></v-spacer>

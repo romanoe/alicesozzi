@@ -15,13 +15,8 @@
 .img-alice-footer {
   width: 30%;
   padding: 0 20px 0 20px;
-
 }
 
-.text-alice {
-  color: #C7287D;
-  display: inline-block;
-}
 
 
 .theme--light.v-footer {
@@ -34,9 +29,9 @@
 }
 
 .credits {
-  height: 131px;
   background-color: rgb(152, 227, 213, 0.5);
   padding-left: 5%;
+
 
 }
 
@@ -60,6 +55,10 @@
 .v-footer {
   height: auto;
 }
+
+.text-alice {
+  color: #C7287D;
+}
 </style>
 
 
@@ -71,8 +70,6 @@
 
 
   <v-footer absolute app>
-
-
     <v-row class="row-footer" justify="center">
       <v-spacer></v-spacer>
       <v-col cols='12' md=5 sm=1>
@@ -84,22 +81,17 @@
             Chemin des Aubépines 23 <br>
             1004 Lausanne <br>
             021 648 76 12 <br>
-            077 411 67 07</span>
-
+            077 411 67 07
+          </span>
         </div>
       </v-col>
-
-
-
       <v-col cols='12' class='asca' md=6 sm=1>
         <img src='~/assets/img/AliceSozzi_asca@2x.png' />
       </v-col>
-
     </v-row>
 
     <v-row class='credits'>
-      <v-col cols='12'  md=10 sm=1>
-
+      <v-col cols='12' md=12 sm=1>
       <span>©Cabinet de soins Alice Sozzi, 2021. Tous droits réservés. Design: Shaolin-design</span>
     </v-col>
 
