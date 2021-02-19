@@ -8,7 +8,6 @@
 .row-info-tarif {
   padding: 5% 0 2% 0;
   background-color: rgba(255,255,255,0.4);
-
 }
 
 #title-info {

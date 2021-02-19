@@ -10,11 +10,11 @@
   font-size: 30px;
 }
 
-.row {
+/* .row {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .two-col {
   margin : 4% 2% 2% 2%;

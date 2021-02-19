@@ -31,7 +31,6 @@
 .row-footer {
   padding: 0 10% 0 10%;
   border-top :  21px solid rgb(152, 227, 213, 0.5);
-
 }
 
 .credits {
