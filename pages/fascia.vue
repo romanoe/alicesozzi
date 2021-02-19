@@ -24,8 +24,8 @@
 
 
 <template>
-<div>
-  <div class='section-title'><span id='title'>QU'EST-CE QU'UN FASCIA ? </span></div>
+<div id="hidden">
+  <div class='section-title' ><span id='title'>QU'EST-CE QU'UN FASCIA ? </span></div>
   <v-container>
     <p>Les fascias sont des membranes translucides présentes absolument partout dans notre corps. Elles représentent environ 20% du poids de notre corps, et enveloppent, relient entre eux tous les éléments de notre organisme comme les muscles, les
       os, les organes y compris le cerveau et les vaisseaux sanguins.</p>
@@ -40,6 +40,6 @@
 
 <script>
 export default {
-  layout: (ctx) => ctx.$device.isMobile ? 'mobile' : 'default'
+  layout: 'default'
 }
 </script>

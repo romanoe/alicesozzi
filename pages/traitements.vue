@@ -3,6 +3,8 @@
   background-color: #DEC3E8;
   height: auto;
   padding: 2%;
+  z-index: -1;
+  position: relative;
 }
 
 #title-traitement {
@@ -16,6 +18,15 @@
   font-weight: 600;
   color: #834B99;
 
+}
+
+#img-traitement {
+  z-index: -1;
+}
+
+#hidden {
+    z-index: -1;
+    position: relative;
 }
 
 #pink {
@@ -35,9 +46,9 @@
 
   <div v-if="$device.isMobile">
   <v-container>
-    <v-row justify="center" align="center">
+    <v-row justify="center" align="center" id = "hidden">
       <v-col cols=12   md=6 sm=1>
-        <v-img :src='require("~/assets/img/AliceSozzi_douleur1@2x.png")' aspect-ratio="2" contain></v-img>
+        <v-img id="img-traitement" :src='require("~/assets/img/AliceSozzi_douleur1@2x.png")' aspect-ratio="2" contain></v-img>
       </v-col>
       <v-col cols=12  md=6 sm=1>
         <span class='title-paragraph'> Une douleur liée à une émotion non exprimée</span>
@@ -50,9 +61,9 @@
 </v-container>
 
 <v-container>
-    <v-row justify="center"  align="center">
+    <v-row justify="center"  align="center" id = "hidden">
       <v-col cols=12  md=6 sm=1>
-        <v-img :src='require("~/assets/img/AliceSozzi_douleur2@2x.png")' aspect-ratio="2" contain></v-img>
+        <v-img id="img-traitement" :src='require("~/assets/img/AliceSozzi_douleur2@2x.png")' aspect-ratio="2" contain></v-img>
       </v-col>
       <v-col cols=12  md=6 sm=1>
         <span class='title-paragraph'> Une douleur sans douleur </span>
@@ -65,9 +76,9 @@
 
 
   <v-container>
-    <v-row  align="center">
+    <v-row  align="center" id = "hidden">
       <v-col cols=12 md=6 sm=1>
-        <v-img :src='require("~/assets/img/AliceSozzi_douleur3@2x.png")' aspect-ratio="1.5" contain></v-img>
+        <v-img id="img-traitement" :src='require("~/assets/img/AliceSozzi_douleur3@2x.png")' aspect-ratio="1.5" contain></v-img>
       </v-col>
       <v-col cols=12  md=6 sm=1>
         <span class='title-paragraph'>Une douleur sans choc</span>
@@ -95,9 +106,9 @@
 
 <div v-else-if="$device.isDesktop">
   <v-container>
-    <v-row justify="center" align="center">
+    <v-row justify="center" align="center" id = "hidden">
       <v-col cols=12   md=6 sm=1>
-        <v-img :src='require("~/assets/img/AliceSozzi_douleur1@2x.png")' aspect-ratio="2" contain></v-img>
+        <v-img id="img-traitement" :src='require("~/assets/img/AliceSozzi_douleur1@2x.png")' aspect-ratio="2" contain></v-img>
       </v-col>
       <v-col cols=12  md=6 sm=1>
         <span class='title-paragraph'> Une douleur liée à une émotion non exprimée</span>
@@ -111,7 +122,7 @@
 
 
 <v-container>
-    <v-row justify="center" align="center">
+    <v-row justify="center" align="center" id = "hidden">
       <v-col cols=12  md=6 sm=1>
         <span class='title-paragraph'> Une douleur sans douleur </span>
         <p>Lorsque le corps reçoit un choc physique ou émotionnel, il se crispe et se désensibilise. Cela le protège d’une douleur qui serait trop intense. Mais en même temps, il se prive de cette extraordinaire sensibilité perceptive qui fait que le corps dit, informe, alerte d’un dysfonctionnement.
@@ -119,16 +130,16 @@
         <p><b>Par mon approche corporelle, je resensibilise les tissus et contribue à la restauration de la capacité sensorielle. </b></p>
       </v-col>
       <v-col cols=12  md=6 sm=1>
-        <v-img :src='require("~/assets/img/AliceSozzi_douleur2@2x.png")' aspect-ratio="2" contain></v-img>
+        <v-img id="img-traitement" :src='require("~/assets/img/AliceSozzi_douleur2@2x.png")' aspect-ratio="2" contain></v-img>
       </v-col>
     </v-row>
   </v-container>
 
 
   <v-container>
-    <v-row justify="center" align="center">
+    <v-row justify="center" align="center" id = "hidden">
       <v-col cols=12 md=6 sm=1>
-        <v-img :src='require("~/assets/img/AliceSozzi_douleur3@2x.png")' aspect-ratio="1.5" contain></v-img>
+        <v-img  id="img-traitement" :src='require("~/assets/img/AliceSozzi_douleur3@2x.png")' aspect-ratio="1.5" contain></v-img>
       </v-col>
       <v-col cols=12  md=6 sm=1>
         <span class='title-paragraph'>Une douleur sans choc</span>
@@ -160,6 +171,6 @@
 
 <script>
 export default {
-  layout: (ctx) => ctx.$device.isMobile ? 'mobile' : 'default'
+  layout: 'default'
 }
 </script>

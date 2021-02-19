@@ -11,7 +11,6 @@
   opacity: 0.8;
   height: auto;
   text-align: center;
-  /* padding: 3% 0 3% 0; */
 
 }
 
@@ -167,6 +166,6 @@
 
 <script>
 export default {
-  layout: (ctx) => ctx.$device.isMobile ? 'mobile' : 'default'
+  layout: 'default'
 }
 </script>

@@ -1,36 +1,3 @@
-<template>
-<div>
-
-
-
-  <v-app>
-
-<!-- Backgroun image top-->
-    <div class='img-background-header'>
-      <img src='~/assets/img/home_Fruitgrenade@2x.png' />
-    </div>
-
-<!-- Header -->
-    <Header />
-
-
-<!-- Main content (pages) -->
-    <v-main>
-      <Nuxt />
-    </v-main>
-
-<!-- Footer -->
-    <Footer />
-
-<!-- Bacground image botton -->
-    <div class='img-background-footer'>
-      <img src='~/assets/img/AliceSozzi_plantes@2x.png' />
-    </div>
-  </v-app>
-
-</div>
-</template>
-
 <style>
 html {
   font-family:
@@ -46,13 +13,13 @@ html {
 }
 
 body {
-  position: relative; 
+  position: relative;
 }
 
 .v-application {
-    font-family:'Source Sans Pro',
+  font-family: 'Source Sans Pro',
     sans-serif !important;
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 
@@ -109,4 +76,45 @@ a {
   z-index: 1
 }
 
+p {
+  color: #834B99;
+  font-size: large;
+}
+
+
+header {
+  height: 80px !important;
+}
 </style>
+
+
+
+<template>
+<div>
+
+  <!-- App -->
+  <v-app>
+    <!-- Backgroun image top-->
+    <div class='img-background-header'>
+      <img src='~/assets/img/home_Fruitgrenade@2x.png' />
+    </div>
+
+    <!-- Header -->
+    <Header />
+
+    <!-- Main content (pages) -->
+    <v-main>
+      <Nuxt />
+    </v-main>
+
+    <!-- Footer -->
+    <Footer />
+
+    <!-- Background image botton -->
+    <div class='img-background-footer'>
+      <img src='~/assets/img/AliceSozzi_plantes@2x.png' />
+    </div>
+  </v-app>
+
+</div>
+</template>

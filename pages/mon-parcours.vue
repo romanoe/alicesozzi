@@ -33,7 +33,7 @@ table {
 
 
 <template>
-<div>
+<div id="hidden">
 
   <div class='section-title'><span id='title'>MON PARCOURS</span></div>
   <v-container>
@@ -151,6 +151,6 @@ table {
 
 <script>
 export default {
-  layout: (ctx) => ctx.$device.isMobile ? 'mobile' : 'default'
+  layout: 'default'
 }
 </script>
