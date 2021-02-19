@@ -27,7 +27,7 @@
 }
 
 table {
-  width: 48%;
+  width: 60%;
   text-align: left;
 }
 

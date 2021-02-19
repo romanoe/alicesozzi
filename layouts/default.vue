@@ -79,7 +79,7 @@ h4 {
 }
 
 .img-background-footer img {
-  position: absolute; 
+  position: absolute;
   bottom: 0px;
   right: 0px;
 
@@ -93,7 +93,6 @@ a {
 .v-application a {
   text-decoration: none;
   color: #C7287D;
-
 }
 
 .menu a {
@@ -101,6 +100,7 @@ a {
   color: #C7287D;
   padding-right: 20px;
   padding-left: 20px;
+  padding-bottom: 5px; 
   z-index: 1
 }
 

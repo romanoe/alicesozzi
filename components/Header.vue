@@ -5,14 +5,11 @@
   padding: 0 20px 0 20px;
 }
 
-.text-alice {
-  display: inline-block;
 
-}
 
 .container-header {
   margin: auto;
-  width: 40%;
+  width: 70% !important;
   padding: 10px;
 }
 

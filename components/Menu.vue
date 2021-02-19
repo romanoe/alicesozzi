@@ -28,7 +28,6 @@
 
     <NuxtLink to="/info-tarifs">INFORMATIONS ET TARIFS</NuxtLink>
 
-    <NuxtLink to="/contact">CONTACT</NuxtLink>
 </div>
 
 </template>

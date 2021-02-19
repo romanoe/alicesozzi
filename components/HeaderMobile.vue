@@ -5,10 +5,6 @@
   padding: 0 20px 0 20px;
 }
 
-.text-alice {
-  display: inline-block;
-
-}
 
 .container-header {
   margin: auto;

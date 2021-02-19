@@ -12,12 +12,11 @@
     <!-- Header -->
     <HeaderMobile />
 
-
-
     <!-- Main content (pages) -->
-    <!-- <v-main> -->
+    <v-main>
+
       <Nuxt />
-    <!-- </v-main> -->
+    </v-main>
 
     <!-- Footer -->
     <Footer />
@@ -78,8 +77,10 @@ h4 {
 
 p {
   color : #834B99;
-  font-size: large; 
+  font-size: large;
 }
+
+
 
 
 </style>
