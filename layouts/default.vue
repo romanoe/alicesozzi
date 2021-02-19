@@ -92,7 +92,7 @@ a {
 
 .v-application a {
   text-decoration: none;
-  color: #C7287D;
+  color: #C7287D !important;
 }
 
 .menu a {
@@ -100,7 +100,7 @@ a {
   color: #C7287D;
   padding-right: 20px;
   padding-left: 20px;
-  padding-bottom: 5px; 
+  padding-bottom: 5px;
   z-index: 1
 }
 
