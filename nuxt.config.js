@@ -22,14 +22,15 @@ export default {
       }
     ],
     link: [{
-      rel: 'icon',
-      type: 'image/x-icon',
-      href: '/favicon.ico'
-    },
-    {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico'
+      },
+      {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap'
-      }]
+      }
+    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -49,10 +50,17 @@ export default {
   buildModules: [
     '@nuxtjs/vuetify',
     '@nuxtjs/device',
+
   ],
 
+
+
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: [
+  
+  ],
+
+
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
