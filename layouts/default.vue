@@ -111,11 +111,14 @@ header {
     <!-- Footer -->
     <Footer />
 
+
+
     <!-- Background image botton -->
     <div class='img-background-footer'>
       <img src='~/assets/img/AliceSozzi_plantes@2x.png' />
     </div>
   </v-app>
+
 
 </div>
 </template>
