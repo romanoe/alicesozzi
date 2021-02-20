@@ -102,10 +102,6 @@
 </v-footer>
 
 
-
-
-
-
 </div>
 </template>
 

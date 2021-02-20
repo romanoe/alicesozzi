@@ -35,7 +35,7 @@
 }
 
 
-header .v-app-bar {
+header  {
   background-color: rgba(255, 255, 255, 0.5) !important;
   height: 5% !important;
 }
@@ -44,6 +44,7 @@ v-toolbar__content {
   background-color: rgba(255, 255, 255, 0.5) !important;
   height: 5% !important;
 }
+
 
 </style>
 

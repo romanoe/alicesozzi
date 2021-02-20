@@ -33,7 +33,7 @@ table {
 
 
 <template>
-<div id="hidden">
+<div >
 
   <div class='section-title'><span id='title'>MON PARCOURS</span></div>
   <v-container>

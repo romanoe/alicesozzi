@@ -18,7 +18,7 @@
 }
 </style>
 <template>
-<div id="hidden">
+<div>
 
 
   <v-container>

@@ -46,7 +46,7 @@
 
   <div v-if="$device.isMobile">
   <v-container>
-    <v-row justify="center" align="center" id = "hidden">
+    <v-row justify="center" align="center" >
       <v-col cols=12   md=6 sm=1>
         <v-img id="img-traitement" :src='require("~/assets/img/AliceSozzi_douleur1@2x.png")' aspect-ratio="2" contain></v-img>
       </v-col>

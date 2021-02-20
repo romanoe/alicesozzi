@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  position: relative;
+  /* position: relative; */
 }
 
 .v-application {
@@ -99,11 +99,12 @@ header {
       <img src='~/assets/img/home_Fruitgrenade@2x.png' />
     </div>
 
-    <!-- Header -->
-    <Header />
+
 
     <!-- Main content (pages) -->
     <v-main>
+      <!-- Header -->
+      <Header />
       <Nuxt />
     </v-main>
 
