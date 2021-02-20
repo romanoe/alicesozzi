@@ -38,7 +38,7 @@ table {
   <div class='section-title'><span id='title'>MON PARCOURS</span></div>
   <v-container>
     <v-row justify="center">
-      <v-col md=8 sm=1>
+      <v-col cols=12 md=8 sm=1>
         <p>Je pratique la fasciathérapie dans mon cabinet de consultation à Lausanne depuis 26 ans.</p>
         <p>La forme de thérapie que je pratique, également issue de ma formation de psychologue, se base sur des savoir-faire liés au corps et à la relation à l’autre.</p>
         <p>Dans mon cursus de psychologie à l’Université de Genève, j’ai été attirée par les matières qui abordaient le corps, particulièrement l’enseignement du Pr. A. Bullinger et qui abordait le développement des 5 sens, chez l’enfant, de façon
@@ -46,7 +46,7 @@ table {
             <p>Continuer à approfondir la connaissance du corps m’enthousiasme toujours.
               Par ce biais corporel, j’ai expérimenté une autre façon d’interagir avec les personnes. J’ai développé des capacités à lire les indices que le corps donne, alors que la parole les tait.</p>
       </v-col>
-      <v-col md=4 sm=1>
+      <v-col cols=12 md=4 sm=1>
         <v-img id="img-cabinet" :src='require("~/assets/img/AliceSozzi_consultation@2x.png")' aspect-ratio="1" contain></v-img>
       </v-col>
     </v-row>
@@ -56,10 +56,10 @@ table {
   <div class='citation'>
     <v-container>
       <v-row justify="center">
-        <v-col md=5 sm=1>
+        <v-col cols=12 md=5 sm=1>
           <span id='ma-profession'>« Alors que je me destinais à la profession de psychothérapeute, un détour par le corps a fini par dévier ma route. »</span>
         </v-col>
-        <v-col md=7 sm=1>
+        <v-col cols=12 md=7 sm=1>
           <v-img :src='require("~/assets/img/AliceSozzi_fascia@2x.png")' aspect-ratio="2" contain></v-img>
         </v-col>
       </v-row>
