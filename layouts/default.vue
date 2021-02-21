@@ -54,6 +54,7 @@ h4 {
   position: absolute;
   bottom: 0px;
   right: 0px;
+  opacity: 0.4;
 
 }
 

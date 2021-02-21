@@ -6,8 +6,8 @@
 }
 
 
-.theme--light.v-footer {
-  background-color: transparent;
+.v-footer {
+  background-color: transparent !important;
 }
 
 .row-footer {
@@ -47,12 +47,11 @@
 <template>
 <div>
   <v-footer absolute app inset height="200" width="auto">
-
     <v-row class="row-footer" justify="center" align="center" no-gutters>
       <v-col cols=12 md=2 sm=1 v-if="$device.isDesktop">
       <v-img :src='require("~/assets/img/AliceSozzi.png")' aspect-ratio=3 contain></v-img>
       </v-col>
-      <v-col cols=12 md=5 sm=1 xs=1>
+      <v-col cols=12 md=5 sm=2 xs=1>
         <span class="text-alice">
           <span class="footer-title">CONTACT</span><br> <br>
           <b>Alice Sozzi</b> <br>
@@ -62,7 +61,7 @@
           077 411 67 07
         </span>
       </v-col>
-      <v-col cols=12 md=5 sm=1>
+      <v-col cols=12 md=5 sm=2 xs=1>
         <v-img :src='require("~/assets/img/AliceSozzi_asca@2x.png")' aspect-ratio="7" contain></v-img>
       </v-col>
 
