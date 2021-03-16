@@ -28,7 +28,7 @@
       <div class = 'info-tarif'>
         <p class='text-center'>Remboursé <b>ASCA RME</b>.</p>
         <p class='text-center'>Une séance dure environ 1 heure.</p>
-        <p class='text-center'>Il est conseillé de porter des vêtements comfortables puisque le traitement est généralement effectué par-dessus l’habillement.</p>
+        <p class='text-center'>Il est conseillé de porter des vêtements confortables puisque le traitement est généralement effectué au-dessus de l’habillement.</p>
 
     </div>
   </v-col>

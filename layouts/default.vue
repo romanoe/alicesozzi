@@ -55,7 +55,6 @@ h4 {
   bottom: 0px;
   right: 0px;
   opacity: 0.4;
-
 }
 
 a {
@@ -79,7 +78,7 @@ a {
 
 p {
   color: #834B99;
-  font-size: large;
+  font-size: medium;
 }
 
 

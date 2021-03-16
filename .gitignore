@@ -73,6 +73,9 @@ typings/
 
 # vuepress build output
 .vuepress/dist
+340
+
+git reset --hard 4a155e5
 
 # Serverless directories
 .serverless

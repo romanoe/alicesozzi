@@ -41,7 +41,7 @@ table {
       <v-col cols=12 md=8 sm=1>
         <p>Je pratique la fasciathérapie dans mon cabinet de consultation à Lausanne depuis 26 ans.</p>
         <p>La forme de thérapie que je pratique, également issue de ma formation de psychologue, se base sur des savoir-faire liés au corps et à la relation à l’autre.</p>
-        <p>Dans mon cursus de psychologie à l’Université de Genève, j’ai été attirée par les matières qui abordaient le corps, particulièrement l’enseignement du Pr. A. Bullinger et qui abordait le développement des 5 sens, chez l’enfant, de façon
+        <p>Dans mon cursus de psychologie à l’Université de Genève, j’ai été attirée par les matières qui concernaient le corps, particulièrement l’enseignement du Pr. A. Bullinger qui abordait le développement des 5 sens, chez l’enfant, de façon
           innovante.<p>
             <p>Continuer à approfondir la connaissance du corps m’enthousiasme toujours.
               Par ce biais corporel, j’ai expérimenté une autre façon d’interagir avec les personnes. J’ai développé des capacités à lire les indices que le corps donne, alors que la parole les tait.</p>
@@ -71,23 +71,6 @@ table {
   <div class='section-title'><span id='title'>MA FORMATION</span></div>
   <div id="cv">
     <table>
-      <tr>
-        <th>
-          <p><b>1983</b></p>
-        </th>
-        <th>
-          <p class='thin'>Baccalauréat scientifique (Lausanne)</p>
-        </th>
-      </tr>
-      <tr>
-        <th>
-          <p><b>1985</b></p>
-        </th>
-        <th>
-          <p class='thin'>Brevet d’enseignement primaire (Ecole Normale de Lausanne)</p>
-        </th>
-      </tr>
-
       <tr>
         <th>
           <p><b>1990</b></p>
@@ -136,10 +119,10 @@ table {
 
       <tr>
         <th>
-          <p><b>2019</b></p>
+          <p><b>2004</b></p>
         </th>
         <th>
-          <p class='thin'>Attestation de pratique en Seïtai et Mouvement régénérateur</p>
+          <p class='thin'>Pratique du Seïtai et Mouvement régénérateur</p>
         </th>
       </tr>
 

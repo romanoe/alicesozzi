@@ -31,8 +31,7 @@
       os, les organes y compris le cerveau et les vaisseaux sanguins.</p>
     <p><b>De la tête aux pieds et de la périphérie à la profondeur, le fascia est le tissu par excellence de l’adaptation, il est malléable, réactif, réversible dans sa capacité à se crisper et se décrisper. </b></p>
     <v-img id="" :src='require("~/assets/img/AliceSozzi_corps@2x.png")' aspect-ratio="3" contain></v-img>
-    <p>Le fait que les fascias soient justement pourvus de terminaisons nerveuses spécifiques à la douleur fait de la fasciathérapie une méthode particulièrement indiquée pour traiter la douleur.</p>
-    <p>Car la capacité adaptative du fascia en tant que processus vivant a ses limites. Si le stress se répète indéfiniment, le fascia se rétracte, se durcit, se fige, perd de son élasticité et sa sensibilité. C’est là que peut débuter le traitement
+    <p>Le fait que les fascias soient justement pourvus de terminaisons nerveuses spécifiques à la douleur fait de la fasciathérapie une méthode particulièrement indiquée pour traiter les effets de cette douleur, car la capacité adaptative du fascia en tant que processus vivant a ses limites. En effet, si le stress se répète indéfiniment, le fascia se rétracte, se durcit, se fige, perd de son élasticité et sa sensibilité. C’est là que peut débuter le traitement
       en fasciathérapie.</p>
   </v-container>
 </div>
