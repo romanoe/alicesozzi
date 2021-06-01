@@ -25,6 +25,15 @@
 
 <template>
 <div >
+
+  <div id="domaines-applications">
+    <div class='section-title'><span id='title-traitement'>DOMAINES D'APPLICATIONS</span></div>
+    <v-img id="" :src='require("~/assets/img/AliceSozzi_traitement@2x.png")' aspect-ratio="2.5" contain></v-img>
+  </div>
+
+
+
+
   <div class='section-title' ><span id='title'>QU'EST-CE QU'UN FASCIA ? </span></div>
   <v-container>
     <p>Les fascias sont des membranes translucides présentes absolument partout dans notre corps. Elles représentent environ 20% du poids de notre corps, et enveloppent, relient entre eux tous les éléments de notre organisme comme les muscles, les

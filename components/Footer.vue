@@ -66,7 +66,7 @@
       </v-col>
 
       <div class= "credits">
-        <span>©Cabinet de soins Alice Sozzi, 2021. Tous droits réservés. Design: Shaolin-design</span>
+        <span>©Cabinet de fasciathérapie Alice Sozzi, 2021. Tous droits réservés. Design: Shaolin-design</span>
       </div>
     </v-row>
   </v-footer>

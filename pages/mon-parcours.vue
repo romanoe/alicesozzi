@@ -7,7 +7,8 @@
 
 #ma-profession {
   color: #50C1A3;
-  font-size: 30px;
+  font-size: 25px;
+
 }
 
 .section-title {
@@ -29,6 +30,12 @@ table {
 .thin {
   font-weight: lighter;
 }
+
+.big-margins {
+  margin: 10% 25% 10% 25%;
+}
+
+
 </style>
 
 
@@ -38,33 +45,62 @@ table {
   <div class='section-title'><span id='title'>MON PARCOURS</span></div>
   <v-container>
     <v-row justify="center">
-      <v-col cols=12 md=8 sm=1>
-        <p>Je pratique la fasciathérapie dans mon cabinet de consultation à Lausanne depuis 26 ans.</p>
-        <p>La forme de thérapie que je pratique, également issue de ma formation de psychologue, se base sur des savoir-faire liés au corps et à la relation à l’autre.</p>
-        <p>Dans mon cursus de psychologie à l’Université de Genève, j’ai été attirée par les matières qui concernaient le corps, particulièrement l’enseignement du Pr. A. Bullinger qui abordait le développement des 5 sens, chez l’enfant, de façon
-          innovante.<p>
-            <p>Continuer à approfondir la connaissance du corps m’enthousiasme toujours.
-              Par ce biais corporel, j’ai expérimenté une autre façon d’interagir avec les personnes. J’ai développé des capacités à lire les indices que le corps donne, alors que la parole les tait.</p>
+      <v-col cols=12 md=5 sm=1>
+        <p>Lors de mon cursus de psychologie à l’Université de Genève, j’ai été attirée par les enseignements qui prenaient en compte l’aspect corporel, particulièrement les recherches du Pr. A. Bullinger qui intègre le corps par le biais des 5 sens dans le développement de l’humain de façon innovante.</p>
+        <br>
+
+          <v-img id="img-cabinet" :src='require("~/assets/img/Groupe 1645@3x.png")' aspect-ratio="10" contain></v-img>
+          <br>
+
+          <p>Par la suite, j’ai complété ma formation par l’étude de la fasciathérapie selon la méthode Danis Bois et ai introduit ce toucher sensoriel comme outil de soins de la douleur.</p>
+          <br>
+
+
+          <v-img id="img-cabinet" :src='require("~/assets/img/Groupe 1646@3x.png")' aspect-ratio="10" contain></v-img>
+          <br>
+
+          <p>Plus tard, ce sera l’initiation au Seïtai et au Mouvement Régénérateur par Christiane Roudaut qui viendra enrichir ma pratique rendant mon toucher plus instinctif, moins cérébral. Sensai TSUDA a été à l'origine de la diffusion de ces disciplines à Paris dans les années '70, assisté par Christiane Roudaut, première pratiquante.</p>
+          <br>
+
+            <v-img id="img-cabinet" :src='require("~/assets/img/Groupe 1647@3x.png")' aspect-ratio="10" contain></v-img>
+            <br>
+
+            <p>    Le Mouvement Régénérateur est une réaction d’adaptation aux besoins du corps et s’apparente au système non volontaire propre à notre physiologie issu du tronc cérébral. Les manifestations les plus courantes en sont les bâillements, les éternuements, les mouvements pendant le sommeil, les rires, les pleurs etc.</p>
+            <br>
+
+            <v-img id="img-cabinet" :src='require("~/assets/img/Groupe 1648@3x.png")' aspect-ratio="10" contain></v-img>
+
+            <br>
+
+
+          <p>La thérapie que je pratique depuis 26 ans maintenant dans mon cabinet de consultation à Lausanne se base sur des savoir-faire liés au corps et à la relation à l‘autre.
+
+          </p>
+
       </v-col>
-      <v-col cols=12 md=4 sm=1>
-        <v-img id="img-cabinet" :src='require("~/assets/img/AliceSozzi_consultation@2x.png")' aspect-ratio="1" contain></v-img>
+      <v-col cols=12 md=7 sm=1>
+        <v-img id="img-cabinet" :src='require("~/assets/img/AliceSozzi_consultation@2x.png")' aspect-ratio="2" contain></v-img>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    
+
+      <div class='text-center big-margins'>
+        <span id='ma-profession'>« Alors que je me destinais à la profession de psychothérapeute, un détour par le corps m'a permis de développer des capacités à lire les indices que le corps donne, alors que la parole les tait »</span>
+         </div>
       </v-col>
     </v-row>
   </v-container>
 
 
-  <div class='citation'>
-    <v-container>
-      <v-row justify="center">
-        <v-col cols=12 md=5 sm=1>
-          <span id='ma-profession'>« Alors que je me destinais à la profession de psychothérapeute, un détour par le corps a fini par dévier ma route. »</span>
-        </v-col>
-        <v-col cols=12 md=7 sm=1>
-          <v-img :src='require("~/assets/img/AliceSozzi_fascia@2x.png")' aspect-ratio="2" contain></v-img>
-        </v-col>
-      </v-row>
-    </v-container>
-  </div>
+
+
+
+
 
 
 

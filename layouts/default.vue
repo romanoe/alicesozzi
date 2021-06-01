@@ -40,8 +40,10 @@ h4 {
 
 .img-background-header img {
   position: absolute;
-  top: 0px;
   right: 0px;
+  top: 0px;
+  width: 33%;
+
 
 }
 
@@ -54,7 +56,9 @@ h4 {
   position: absolute;
   bottom: 0px;
   right: 0px;
-  opacity: 0.4;
+  opacity: 0.6;
+  width: 33%;
+
 }
 
 a {

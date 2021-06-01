@@ -52,11 +52,11 @@
       <div id="header">
         <v-row>
           <v-col cols=12 md=1 sm=1>
-            <v-img id='img-alice-header' :src='require("~/assets/img/AliceSozzi.png")' aspect-ratio="1.5" contain></v-img>
+            <v-img id='img-alice-header' :src='require("~/assets/img/AliceSozzi.png")' aspect-ratio="1.2" contain></v-img>
           </v-col>
           <v-col cols=12 md=11 sm=1>
             <h4 class='text-alice'>
-              <span class='title'> CABINET DE SOINS ALICE SOZZI</span>
+              <span class='title'> CABINET DE FASCIATHÉRAPIE ALICE SOZZI</span>
               <br>
               <span class='subtitle'>PSYCHOLOGUE ET FASCIATHÉRAPEUTE, AGRÉE ASCA, RME</span>
             </h4>
@@ -82,7 +82,7 @@
     <v-spacer></v-spacer>
     <NuxtLink to="/">
       <h5 class='text-alice'>
-        <span class='title-mobile'> CABINET DE SOINS ALICE SOZZI</span>
+        <span class='title-mobile'> CABINET DE FASCIATHÉRAPIE ALICE SOZZI</span>
         <br>
         <span class='subtitle-mobile'>PSYCHOLOGUE ET FASCIATHÉRAPEUTE, AGRÉE ASCA, RME</span>
       </h5>

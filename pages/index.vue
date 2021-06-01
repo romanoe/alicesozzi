@@ -2,13 +2,24 @@
 .text-home-page {
   color: #834B99;
   font-weight: 300;
-  font-size: x-large;
+  font-size: 2.2em;
   line-height: 1.2em;
+}
+
+.jaune {
+  background-color: #F7ECDE;
+  letter-spacing: 1.8px;
+color: #C7287D;
+text-transform: uppercase;
+opacity: 1;
+text-align: center;
+font: normal normal bold 1em Source Sans Pro;
+padding: 5% 20% 5% 20%;
 }
 
 
 .mes-actions {
-  background-color: #F7ECDE;
+  /*  */
   opacity: 0.8;
   height: auto;
   text-align: center;
@@ -51,9 +62,7 @@
 }
 
 
-#img-cabinet {
-  /* margin-top: -%; */
-}
+
 
 </style>
 
@@ -63,35 +72,50 @@
 
 
 
-  <!-- First page text - Mobile -->
-  <div v-if="$device.isDesktop">
+  <!-- First page text - Desktop -->
+  <!-- <div v-if="$device.isDesktop"> -->
     <v-container>
        <v-row justify="center" align="center">
          <v-col cols=12 md=7 sm=1>
-           <v-img id="corps-complice" :src='require("~/assets/img/home_text1@2x.png")' aspect-ratio="3" contain></v-img>
+           <v-img id="corps-complice" :src='require("~/assets/img/home_text1@2x.png")' aspect-ratio="13" contain></v-img>
          </v-col>
          <v-col cols=12 md=5 sm=1>
          </v-col>
        </v-row>
      </v-container>
-    <v-container>
 
+    <v-container>
       <div class="intro">
-        <v-row justify="center" align="center">
-          <v-col cols=12 md=6 sm=6>
-            <p><span class='text-home-page'>Par un <b>toucher subtil</b>, procurer une détente profonde et soigner la douleur en considérant le corps dans sa globalité.</span> </p> <p><span class='text-home-page'>Par la <b>parole</b>, permettre d'identifier les comportements et les schémas de pensée qui entravent la capacité innée du corps à s’auto-réguler.</span></p>
-          </v-col>
-          <v-col cols=12 md=6 sm=6>
+        <v-row justify="center" align="top">
+          <v-col cols=12 md=7 sm=6>
             <v-img id="img-cabinet" :src='require("~/assets/img/home_AliceSozzi@2x.png")' aspect-ratio="1.5" contain></v-img>
-            <span class='text-home-page'> </span>
+          </v-col>
+          <v-col cols=12 md=5 sm=6>
+            <p><span class='text-home-page'>Par un toucher subtil soigner la douleur en procurant une détente profonde et en considérant le corps dans sa globalité</span></p>
           </v-col>
         </v-row>
       </div>
     </v-container>
-  </div>
+
+    <v-container>
+      <div class="intro">
+        <v-row justify="center" align="center">
+          <v-col cols=12 md=7 sm=6>
+            <p><span class='text-home-page'>Identifier les comportements et les schémas de pensée qui entravent la capacité innée du corps à s’autoréguler</span></p>
+          </v-col>
+
+          <!-- >Considérer le corps comme un interlocuteur à part entière avec un langage qui lui est propre et à i -->
+          <v-col cols=12 md=5 sm=6>
+            <v-img id="img-cabinet" :src='require("~/assets/img/Homme_alice_psy.png")' aspect-ratio="2" contain></v-img>
+          </v-col>
+        </v-row>
+      </div>
+    </v-container>
+  <!-- </div> -->
+
 
 <!-- First page text - Mobile -->
-  <div v-else-if="$device.isMobile">
+  <!-- <div v-else-if="$device.isMobile">
     <v-container>
       <v-row justify="center" align="center">
         <v-col cols=12 md=7 sm=1>
@@ -101,27 +125,30 @@
         </v-col>
       </v-row>
     </v-container>
+
     <v-container>
       <div class="intro">
         <v-row justify="center" align="center">
           <v-col cols=12 md=6 sm=1>
-            <span class='text-home-page'>Par un toucher subtil, procurer une détente profonde et soigner la douleur en considérant le corps dans sa globalité...</span>
-            <v-img id="img-cabinet" :src='require("~/assets/img/home_AliceSozzi@2x.png")' aspect-ratio="1" contain></v-img>
-          </v-col>
+
+              </v-col>
           </v-col>
           <v-col cols=12 md=6 sm=1>
-            <span class='text-home-page'>… et permettre à la personne d’identifier les comportements et les schémas de pensée qui entravent la capacité innée du corps à s’auto-réguler. </span>
-            <v-img id="img-pensee" :src='require("~/assets/img/home_1@2x.png")' aspect-ratio="1" contain></v-img>
+
           </v-col>
         </v-row>
       </div>
     </v-container>
-  </div>
+  </div> -->
 
 
+<div  class = 'jaune'>
     <v-container>
-        <v-img :src='require("~/assets/img/AliceSozzi_fascia@2x.png")' aspect-ratio="3" contain></v-img>
-      </v-container>
+      <span class="text-alice"><b>De la tête aux pieds et de la périphérie à la profondeur</b>, les fascias, membranes translucides qui enveloppent relient entre eux tous les éléments de notre organisme,
+      <b>sont les tissus par excellence de l’adaptation</b>.</span>
+    </v-container>
+
+  </div>
 
 
     <!-- Mes actions -->
@@ -160,7 +187,7 @@
         <v-col cols=12 md=4 sm=1>
           <v-img id="img-actions" :src='require("~/assets/img/AliceSozzi_fatigue@2x.png")' aspect-ratio="1" contain></v-img>
           <div class='text-mes-actions'>
-            <span class="text-alice">Restaurer la sensibilité tissulaire lorsque le corps se désensibilise, et perd ainsi sa capacité à signaler tout dysfonctionnement et à s'équilibrer</span>
+            <span class="text-alice">Restaurer la sensibilité tissulaire lorsque le corps se désensibilise, et perd ainsi sa capacité à signaler tout dysfonctionnement</span>
           </div>
         </v-col>
 
