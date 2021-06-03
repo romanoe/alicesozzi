@@ -7,7 +7,8 @@
   height: 44px;
   line-height: 44px;
   font-weight: bold;
-  font-size: medium;
+  font-size: 15px;
+  letter-spacing: 0.1px;
 }
 
 .title {
@@ -52,7 +53,7 @@
       <div id="header">
         <v-row>
           <v-col cols=12 md=1 sm=1>
-            <v-img id='img-alice-header' :src='require("~/assets/img/AliceSozzi.png")' aspect-ratio="1.2" contain></v-img>
+            <v-img id='img-alice-header' :src='require("~/assets/img/AliceSozzi.png")' aspect-ratio="1.3" contain></v-img>
           </v-col>
           <v-col cols=12 md=11 sm=1>
             <h4 class='text-alice'>
