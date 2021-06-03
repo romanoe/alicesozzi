@@ -94,7 +94,7 @@ color: #834B99;
 <v-container>
     <v-row justify="center"  align="center" id = "hidden">
       <v-col cols=12  md=6 sm=1>
-        <v-img id="corps-complice" :src='require("~/assets/img/home_text1@2x.png")' aspect-ratio="2" contain></v-img>
+        <v-img id="corps-complice" :src='require("~/assets/img/Groupe 1610@3x.png")' aspect-ratio="2" contain></v-img>
       </v-col>
       <v-col cols=12  md=6 sm=1>
         <span class='title-paragraph'> Une douleur sans douleur </span>
@@ -109,7 +109,7 @@ color: #834B99;
   <v-container>
     <v-row  align="center" id = "hidden">
       <v-col cols=12 md=6 sm=1>
-        <!-- <v-img id="img-traitement" :src='require("~/assets/img/Groupe 1651@3x.png")' aspect-ratio="1.5" contain></v-img> -->
+        <v-img id="img-traitement" :src='require("~/assets/img/Groupe 1651@3x.png")' aspect-ratio="1.5" contain></v-img>
       </v-col>
       <v-col cols=12  md=6 sm=1>
         <span class='title-paragraph'>Une douleur sans choc</span>
