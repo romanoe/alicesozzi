@@ -22,22 +22,23 @@
 
 
   <v-container>
-  <v-row justify="center" align="start" class = 'row-info-tarif' >
+    <div class='section-title'><span id='title'>INFORMATIONS ET TARIFS</span></div>
+  <v-row justify="center" align="start">
     <v-col cols=12 md=6 sm=1>
-      <div class='info-tarif'><p id='title-info' class='text-center'>INFORMATIONS </p></div>
       <div class = 'info-tarif'>
-        <p class='text-center'>Remboursé <b>ASCA RME</b>.</p>
-        <p class='text-center'>Une séance dure environ 1 heure.</p>
-        <p class='text-center'>Il est conseillé de porter des vêtements confortables puisque le traitement est généralement effectué au-dessus de l’habillement.</p>
-
+        <p><b>Une séance dure environ 1 heure.</b></p>
+        <p>Il est conseillé de porter des vêtements confortables puisque le traitement est généralement effectué au-dessus de l’habillement.</p>
     </div>
   </v-col>
     <v-col  md=6 sm=1>
-    <div class='info-tarif'><p id='title-info'  class='text-center'>TARIFS </p></div>
-        <p class='text-center'><b>CHF 120.-/heure</b></p>
-        <p class='text-center'>Il est conseillé de se renseigner auprès de votre assurance complémentaire avant le début d'une séance. </p>
+        <p><b>CHF 120.-/heure</b><br>
+        Remboursé <b>ASCA RME</b>.</p>
+        <p>Il est conseillé de se renseigner auprès de votre assurance complémentaire avant le début d'une séance. </p>
       </v-col>
   </v-row>
+  <v-container>
+  <v-img :src='require("~/assets/img/Sozzi_papillon@3x.png")' aspect-ratio="5" contain></v-img>
+</v-container>
 </v-container>
 </div>
 </template>

@@ -8,11 +8,15 @@
 
 .v-footer {
   background-color: transparent !important;
+
 }
 
 .row-footer {
-  /* padding: 0 10% 0 10%; */
+  padding-top: 5vh ;
+  margin-bottom: 5vh;
   border-top: 21px solid rgb(152, 227, 213, 0.5);
+  background-color: transparent !important;
+
 }
 
 .credits {
@@ -37,9 +41,7 @@
 }
 
 
-#alice-footer {
-  /* margin-right: -20px;  */
-}
+
 </style>
 
 
@@ -49,11 +51,11 @@
   <v-footer absolute app inset height="200" width="auto">
     <v-row class="row-footer" justify="center" align="center" no-gutters>
       <v-col cols=12 md=2 sm=1 v-if="$device.isDesktop">
-      <v-img :src='require("~/assets/img/AliceSozzi.png")' aspect-ratio=3 contain></v-img>
+      <v-img :src='require("~/assets/img/AliceSozzi.png")' aspect-ratio="3.5" contain></v-img>
       </v-col>
       <v-col cols=12 md=5 sm=2 xs=1>
         <span class="text-alice">
-          <span class="footer-title">CONTACT</span><br> <br>
+          <span class="footer-title">CONTACT</span><br>
           <b>Alice Sozzi</b> <br>
           Chemin des Aubépines 23 <br>
           1004 Lausanne <br>
@@ -62,7 +64,7 @@
         </span>
       </v-col>
       <v-col cols=12 md=5 sm=2 xs=1>
-        <v-img :src='require("~/assets/img/AliceSozzi_asca@2x.png")' aspect-ratio="7" contain></v-img>
+        <v-img :src='require("~/assets/img/AliceSozzi_asca@2x.png")' aspect-ratio="11" contain></v-img>
       </v-col>
 
       <div class= "credits">
@@ -70,8 +72,6 @@
       </div>
     </v-row>
   </v-footer>
-
-
 </div>
 </template>
 

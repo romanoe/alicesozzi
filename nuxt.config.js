@@ -28,7 +28,7 @@ export default {
       },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap'
+        href: 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;500;600;700;800&display=swap'
       }
     ]
   },
@@ -57,7 +57,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-  
+
   ],
 
 

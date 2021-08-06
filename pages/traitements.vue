@@ -14,24 +14,21 @@
 }
 
 .bold {
-  font: Source Sans Pro;
   letter-spacing: 0px;
   color: #834B99;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 
 
 .title-paragraph {
-  font-size: 20px !important;
-  font-weight: bold;
+  font-size: 1.9vw;
+  font-weight: 800;
   color: #834B99;
   text-transform: uppercase;
   padding-top: 3em;
   padding-bottom: 5em;
-  font: normal bold 30px/35px Source Sans Pro;
-  letter-spacing: 0px;
-  line-height: 0px;
+
 }
 
 #img-traitement {
@@ -46,7 +43,8 @@
 
 
 #pink {
-  color: #C7287D
+  color: #C7287D;
+  font-size: 1.5vw;
 }
 </style>
 

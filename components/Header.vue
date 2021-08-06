@@ -3,22 +3,24 @@
 .menu {
   text-align: center;
   width: 100%;
-  background-color: rgba(152, 227, 213, 0.5);
+  background-color: rgba(231, 248, 245, 0.7);
   height: 44px;
   line-height: 44px;
-  font-weight: bold;
-  font-size: 15px;
-  letter-spacing: 0.1px;
+  font-size: 1.1vw;
+  letter-spacing: 0.15vw;
+  font-weight: 800;
 }
 
-.title {
-  font-weight: bold;
-  font-size: medium;
+
+.container {
+  max-width: 75vw;
 }
 
 .subtitle {
-  font-weight: 300;
+  font-weight: 400;
   font-size: small;
+  font-size: 1vw;
+  letter-spacing: 0.09vw;
 }
 
 .title-mobile {
@@ -35,6 +37,12 @@
   padding: 20px 20px 20px 20px;
 }
 
+.header-title {
+  font-size: 1.3vw;
+  font-weight: 800;
+  letter-spacing: 0.09vw;
+
+}
 
 
 .v-toolbar__content {
@@ -49,15 +57,16 @@
   <!-- Menu desktop -->
 
   <div v-if="$device.isDesktop">
+    <v-container>
     <NuxtLink to="/">
       <div id="header">
         <v-row>
           <v-col cols=12 md=1 sm=1>
-            <v-img id='img-alice-header' :src='require("~/assets/img/AliceSozzi.png")' aspect-ratio="1.3" contain></v-img>
+            <v-img id='img-alice-header' :src='require("~/assets/img/AliceSozzi.png")' aspect-ratio="1" contain></v-img>
           </v-col>
           <v-col cols=12 md=11 sm=1>
             <h4 class='text-alice'>
-              <span class='title'> CABINET DE FASCIATHÉRAPIE ALICE SOZZI</span>
+              <span class='header-title'> CABINET DE FASCIATHÉRAPIE ALICE SOZZI</span>
               <br>
               <span class='subtitle'>PSYCHOLOGUE ET FASCIATHÉRAPEUTE, AGRÉE ASCA, RME</span>
             </h4>
@@ -65,6 +74,8 @@
         </v-row>
       </div>
     </NuxtLink>
+  </v-container>
+
     <div class="d-none d-md-flex d-lg-flex">
 
       <div class="menu">

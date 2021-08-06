@@ -12,15 +12,13 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  /* position: relative; */
-}
 
 .v-application {
   font-family: 'Source Sans Pro',
-    sans-serif !important;
-  line-height: 1.5;
+    sans-serif;
+  /* line-height: 1.5; */
 }
+
 
 
 #app {
@@ -28,7 +26,6 @@ body {
 }
 
 h4 {
-  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   color: #C7287D;
 }
@@ -47,6 +44,8 @@ h4 {
 
 }
 
+
+
 .img-background-footer {
   position: relative;
   z-index: -1;
@@ -58,7 +57,6 @@ h4 {
   right: 0px;
   opacity: 0.6;
   width: 33%;
-
 }
 
 a {
@@ -82,7 +80,7 @@ a {
 
 p {
   color: #834B99;
-  font-size: medium;
+  font-size: 1.5vw;
 }
 
 
