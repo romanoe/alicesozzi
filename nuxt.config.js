@@ -1,4 +1,13 @@
 export default {
+
+  mode: "spa",
+
+  loadingIndicator: {
+    name: "pulse",
+    color: "#C7287D",
+    background: "white"
+  },
+
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
