@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/fascia", {data:[{}],fetch:[],mutations:void 0});

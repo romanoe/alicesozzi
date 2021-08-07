@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/mon-parcours", {data:[{}],fetch:[],mutations:void 0});
