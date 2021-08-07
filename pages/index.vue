@@ -12,13 +12,17 @@
   letter-spacing: 1.3px;
   color: #C7287D;
   text-transform: uppercase;
-  font-size: 1.2vw;
+  font-size: 1.2vmin;
   opacity: 1;
   font-weight: 1000;
   padding-top: 3vw;
   padding-bottom: 3vw;
   line-height: 3vh;
 }
+
+
+
+
 
 .mes-actions {
   /*  */

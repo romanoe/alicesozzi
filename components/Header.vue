@@ -112,6 +112,36 @@
       </v-navigation-drawer>
     </v-app-bar>
   </div>
+
+  <!-- Menu tablet -->
+  <div v-else-if="$device.isTablet">
+    <v-app-bar color="rgba(255, 255, 255, 0.5)" prominent>
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+      <v-spacer></v-spacer>
+      <NuxtLink to="/">
+        <h5 class='text-alice'>
+          <span class='title-mobile'> CABINET DE FASCIATHÉRAPIE ALICE SOZZI</span>
+          <br>
+          <span class='subtitle-mobile'>PSYCHOLOGUE ET FASCIATHÉRAPEUTE, AGRÉE ASCA, RME</span>
+        </h5>
+      </NuxtLink>
+      <v-navigation-drawer v-model="drawer" absolute temporary height="100vh" hide-overlay>
+        <v-list nav dense>
+          <v-list-item-group v-model="group" active-class="deep-purple--text text--accent-4">
+            <v-list-item v-for="(item, i) in items" :key="i">
+              <NuxtLink :to=item.link>
+                <v-list-item-title>{{ item.title }}</v-list-item-title>
+              </NuxtLink>
+            </v-list-item>
+          </v-list-item-group>
+        </v-list>
+      </v-navigation-drawer>
+    </v-app-bar>
+  </div>
+
+
+
+
 </div>
 </template>
 

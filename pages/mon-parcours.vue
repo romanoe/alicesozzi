@@ -1,4 +1,4 @@
-<style>
+hidden<style>
 .citation {
   background-color: #FBF5EE;
   height: auto;
@@ -47,15 +47,15 @@ table {
       <v-col cols=12 md=8 sm=1>
         <p>Lors de mon cursus de psychologie à l’Université de Genève, j’ai été attirée par les enseignements qui prenaient en compte l’aspect corporel, particulièrement les recherches du Pr. A. Bullinger qui intègre le corps par le biais des 5 sens
           dans le développement de l’humain de façon innovante.</p>
-        <v-img id="img-cabinet" :src='require("~/assets/img/Groupe 1649@3x.png")' aspect-ratio="13" contain></v-img>
+        <v-img id="hidden" :src='require("~/assets/img/Groupe 1649@3x.png")' aspect-ratio="13" contain></v-img>
 
         <p>Par la suite, j’ai complété ma formation par l’étude de la fasciathérapie selon la méthode Danis Bois et ai introduit ce toucher sensoriel comme outil de soins de la douleur. Plus tard, ce sera l’initiation au Seïtai et au Mouvement
           Régénérateur par Christiane Roudaut qui viendra enrichir ma pratique rendant mon toucher plus instinctif, moins cérébral. Sensai TSUDA a été à l’origine de la diffusion de ces disciplines à Paris dans les années ’70, assisté par Christiane
           Roudaut, première pratiquante.</p>
-        <v-img id="img-cabinet" :src='require("~/assets/img/Groupe 1648@3x.png")' aspect-ratio="13" contain></v-img>
+        <v-img id="hidden" :src='require("~/assets/img/Groupe 1648@3x.png")' aspect-ratio="13" contain></v-img>
         <p>Le Mouvement Régénérateur est une réaction d’adaptation aux besoins du corps et s’apparente au système non volontaire propre à notre physiologie issu du tronc cérébral. Les manifestations les plus courantes en sont les bâillements, les
           éternuements, les mouvements pendant le sommeil, les rires, les pleurs etc.</p>
-        <v-img id="img-cabinet" :src='require("~/assets/img/Groupe 1646@3x.png")' aspect-ratio="13" contain></v-img>
+        <v-img id="hidden" :src='require("~/assets/img/Groupe 1646@3x.png")' aspect-ratio="13" contain></v-img>
   <p>La thérapie que je pratique depuis 26 ans maintenant dans mon cabinet de consultation à Lausanne se base sur des savoir-faire liés au corps et à la relation à l‘autre.</p>
 
 
@@ -63,7 +63,7 @@ table {
 
       </v-col>
       <v-col cols=12 md=4 sm=1>
-        <v-img id="img-cabinet" :src='require("~/assets/img/Sozzi_Portrait.jpg")' aspect-ratio="1.5" contain></v-img>
+        <v-img id="hidden" :src='require("~/assets/img/Sozzi_Portrait.jpg")' aspect-ratio="1.5" contain></v-img>
 
         <br>
         <br>
@@ -73,7 +73,7 @@ table {
           <span id='ma-profession'>« Alors que je me destinais à la profession de psychothérapeute, un détour par le corps m'a permis de développer des capacités à lire les indices que le corps donne, alors que la parole les tait »</span>
           <br>
           <br>
-          <v-img id="img-cabinet" :src='require("~/assets/img/Alice Sozzi_plante@3x.png")' aspect-ratio="2" contain></v-img>
+          <v-img id="hidden" :src='require("~/assets/img/Alice Sozzi_plante@3x.png")' aspect-ratio="2" contain></v-img>
 
         </div>
       </v-col>
