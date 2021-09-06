@@ -12,6 +12,7 @@
   "dependencies": {
     "core-js": "^3.8.2",
     "nuxt": "^2.14.12",
+    "nuxt-mq": "^2.0.2",
     "regenerator-runtime": "^0.13.7"
   },
   "devDependencies": {

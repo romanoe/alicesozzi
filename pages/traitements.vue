@@ -54,9 +54,9 @@
 
 
   <v-container>
-    <div class='section-title'><span id='title'>DESCRIPTION DES SOINS</span></div>
+    <div class='section-title' :class='$mq'><span id='title'>DESCRIPTION DES SOINS</span></div>
     <v-row justify="center" align="center" id = "hidden">
-      <v-col cols=12   md=8 sm=1>
+      <v-col cols=12 md=8 sm=1>
         <div id="description-soins">
           <p id='pink'>Mon expérience m’a appris à utiliser le fascia, ce tissu conjonctif organisé en réseau, pour ne pas prendre systématiquement la douleur de façon frontale. </p>
           <p id='pink'>En cas de douleur intense ou diffuse, j’accorde la priorité à un relâchement général comme condition première, car <b>c’est à partir d’un état de détente que le corps va faire son office, se réparer, se soigner.</b></p>

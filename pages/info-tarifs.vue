@@ -22,7 +22,7 @@
 
 
   <v-container>
-    <div class='section-title'><span id='title'>INFORMATIONS ET TARIFS</span></div>
+    <div class='section-title' :class='$mq'><span id='title'>INFORMATIONS ET TARIFS</span></div>
   <v-row justify="center" align="start">
     <v-col cols=12 md=6 sm=1>
       <div class = 'info-tarif'>

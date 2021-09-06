@@ -66,6 +66,19 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    [
+      'nuxt-mq',
+      {
+        // Default breakpoint for SSR
+        defaultBreakpoint: 'sm',
+        breakpoints: {
+          mobile: 450,
+          tablet: 900,
+          laptop: 1250,
+          desktop: Infinity,
+        }
+      }
+    ]
 
   ],
 

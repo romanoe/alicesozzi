@@ -41,7 +41,7 @@ table {
 <template>
 <div>
 
-  <div class='section-title'><span id='title'>MON PARCOURS</span></div>
+  <div class='section-title' :class='$mq'><span id='title'>MON PARCOURS</span></div>
   <v-container>
     <v-row justify="center">
       <v-col cols=12 md=8 sm=1>
@@ -82,7 +82,7 @@ table {
   </v-container>
 
 <v-container>
-  <div class='section-title'><span id='title'>MA FORMATION</span></div>
+  <div class='section-title' :class='$mq'><span id='title'>MA FORMATION</span></div>
   <v-row>
     <div id="cv">
       <table>

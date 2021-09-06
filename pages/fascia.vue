@@ -22,14 +22,14 @@
 <div>
 
   <div id="domaines-applications">
-    <div class='section-title'><span id='title-traitement'>DOMAINES D'APPLICATIONS</span></div>
+    <div class='section-title' :class='$mq'><span id='title-traitement'>DOMAINES D'APPLICATIONS</span></div>
     <v-img id="" :src='require("~/assets/img/AliceSozzi_traitement@2x.png")' aspect-ratio="2.5" contain></v-img>
   </div>
 
 
 
 
-  <div class='section-title'><span id='title'>QU'EST-CE QU'UN FASCIA ? </span></div>
+  <div class='section-title' :class='$mq'><span id='title'>QU'EST-CE QU'UN FASCIA ? </span></div>
   <v-container>
     <v-row justify="center" align="top">
       <v-col cols=12 md=7 sm=6>
@@ -45,10 +45,7 @@
           fascia en tant que processus vivant a ses limites. En effet, si le stress se répète indéfiniment, le fascia se rétracte, se durcit, se fige, perd de son élasticité et sa sensibilité. C’est là que peut débuter le traitement
           en fasciathérapie.</p>
 
-        <p>
-          Car la capacité adaptative du fascia en tant que processus vivant a ses limites. Si le stress se répète indéfiniment, le fascia se rétracte, se durcit, se fige, perd de son élasticité et sa sensibilité. C’est là que peut débuter le
-          traitement en fasciathérapie.
-        </p>
+
       </v-col>
 
       <v-col cols=12 md=5 sm=6>
