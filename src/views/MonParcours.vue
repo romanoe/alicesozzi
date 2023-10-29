@@ -69,7 +69,7 @@ table {
 
       </v-col>
       <v-col cols=12 md=4 sm=1>
-        <v-img id="hidden" src='/img/Sozzi_Portrait.png' aspect-ratio="1.5" contain alt="alice-portrait"></v-img>
+        <v-img id="hidden" src='/img/Sozzi_Portrait.jpg' aspect-ratio="1.5" contain alt="alice-portrait"></v-img>
 
         <br>
         <br>

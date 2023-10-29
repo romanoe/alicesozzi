@@ -26,7 +26,7 @@
     
     </div>
 
-    <v-img id="" src='/img/AliceSozzi_traitement@2x.webp' aspect-ratio="2.5" contain alt="types-douleurs"></v-img>
+    <v-img id="" src='/img/AliceSozzi_traitement@2x.png' aspect-ratio="2.5" contain alt="types-douleurs"></v-img>
   </div>
 
 
@@ -50,7 +50,7 @@
       </v-col>
 
       <v-col cols=12 md=5 sm=6>
-        <v-img id="" src='/img/AliceSozzi_corps@2x.webp' aspect-ratio="1" contain alt="corps-humain"></v-img>
+        <v-img id="" src='/img/AliceSozzi_corps@2x.png' aspect-ratio="1" contain alt="corps-humain"></v-img>
 
       </v-col>
 
