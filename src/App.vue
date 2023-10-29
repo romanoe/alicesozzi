@@ -31,9 +31,23 @@ html {
 }
 
 #title {
-  font-size: 2.8rem;
+  font-size: 3rem;
   font-weight: 600;
+  color: #C7287D;
 }
+
+#subtitle {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #C7287D;
+}
+
+#subtitle-3 {
+  font-size: 2.3rem;
+  font-weight: 400;
+  color: #C7287D;
+}
+
 
 
 .v-application {

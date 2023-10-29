@@ -20,14 +20,19 @@
 <div>
 
   <div id="domaines-applications">
-    <div class='section-title' ><h1 id='title'>DOMAINES D'APPLICATIONS</h1></div>
-    <v-img id="" src='/img/AliceSozzi_traitement@2x.png' aspect-ratio="2.5" contain></v-img>
+    <div class='section-title' >
+      <h1 id='title'>QUE SOIGNE LA FASCIATHÉRAPIE ?</h1>
+      <h2 id="subtitle">La fasciathérapie soigne la douleur: maux de dos et ventre, chocs physiques et émotionels, articulations, épaule gelée, torticolis, lumbago, épycondilite.</h2>
+    
+    </div>
+
+    <v-img id="" src='/img/AliceSozzi_traitement@2x.webp' aspect-ratio="2.5" contain alt="types-douleurs"></v-img>
   </div>
 
 
 
 
-  <div class='section-title' ><h1 id='title'>QU'EST-CE QU'UN FASCIA ? </h1></div>
+  <div class='section-title' ><h2 id='title'>QU'EST-CE QU'UN FASCIA ? </h2></div>
   <v-container>
     <v-row justify="center" align="start">
       <v-col cols=12 md=7 sm=6>
@@ -45,7 +50,7 @@
       </v-col>
 
       <v-col cols=12 md=5 sm=6>
-        <v-img id="" src='/img/AliceSozzi_corps@2x.png' aspect-ratio="1" contain></v-img>
+        <v-img id="" src='/img/AliceSozzi_corps@2x.webp' aspect-ratio="1" contain alt="corps-humain"></v-img>
 
       </v-col>
 

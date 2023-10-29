@@ -18,7 +18,7 @@ isMobile();
     <v-footer inset height="200" width="auto">
       <v-row class="row-footer" align="center" no-gutters>
         <v-col cols=12 md=2 sm=1 v-if="!mobile">
-          <v-img src='/img/AliceSozzi.png' aspect-ratio="3.5" contain></v-img>
+          <v-img src='/img/AliceSozzi.png' aspect-ratio="3.5" contain alt="alice-sozzi-favicon"></v-img>
         </v-col>
         <v-col cols=12 md=5 sm=2 xs=1>
           <span class="text-alice">
@@ -31,7 +31,7 @@ isMobile();
           </span>
         </v-col>
         <v-col cols=12 md=5 sm=2 xs=1>
-          <v-img src='/img/AliceSozzi_asca@2x.png' aspect-ratio="11" contain></v-img>
+          <v-img src='/img/AliceSozzi_asca@2x.png' aspect-ratio="11" contain alt="asca-rme"></v-img>
         </v-col>
 
         <div class="credits">

@@ -2,7 +2,7 @@
 <style>
 
 .info-tarif {
-  text-align: left;
+  text-align: center;
 }
 
 .row-info-tarif {
@@ -22,20 +22,13 @@
 
 
   <v-container>
-    <div class='section-title' ><h1 id='title'>INFORMATIONS ET TARIFS</h1></div>
-  <v-row justify="center" align="start">
-    <v-col cols=12 md=6 sm=1>
-      <div class = 'info-tarif'>
-        <p><b>Une séance dure environ 1 heure.</b></p>
-        <p>Il est conseillé de porter des vêtements confortables puisque le traitement est généralement effectué au-dessus de l’habillement.</p>
+    <div class='section-title' ><h1 id='title'>INFORMATIONS ET TARIFS</h1>
+    <h2 id="subtitle">Tarif d'une séance de fasciathérapie</h2>
     </div>
-  </v-col>
-    <v-col  md=6 sm=1>
-        <p><b>CHF 120.-/heure</b><br>
-        Remboursé <b>ASCA RME</b>.</p>
-        <p>Il est conseillé de se renseigner auprès de votre assurance complémentaire avant le début d'une séance. </p>
-      </v-col>
-  </v-row>
+      <div class = 'info-tarif'>
+        <p>Une séance dure environ 1 heure et coute <b>120.-</b>.</p>
+        <p>Je suis reconnue par <b>ASCA & RME</b> et remboursée par certaines assurances complémentaires.</p>
+    </div>
   <v-container>
   <v-img src='/img/Sozzi_papillon@3x.png' aspect-ratio="5" contain></v-img>
 </v-container>

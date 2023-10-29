@@ -27,14 +27,19 @@ isMobile();
           <div id="header">
             <v-row>
               <v-col cols=12 md=1 sm=1>
-                <v-img id='img-alice-header' src='/img/AliceSozzi.png' aspect-ratio="1" contain></v-img>
+                <v-img id='img-alice-header' src='/img/AliceSozzi.png' aspect-ratio="1" contain alt="alice-sozzi-favicon"></v-img>
               </v-col>
               <v-col cols=12 md=11 sm=1>
                 <h1 class='text-alice'>
                   <span class='header-title'> CABINET DE FASCIATHÉRAPIE ALICE SOZZI</span>
 
                 </h1>
-                <h2 class='subtitle'>PSYCHOLOGUE ET FASCIATHÉRAPEUTE, AGRÉE ASCA, RME</h2>
+                <h2 class='subtitle'>FASCIATHÉRAPEUTE ET PSYCHOLOGUE, AGRÉE ASCA, RME</h2>
+                <h2 class='subtitle'>Chemin des Aubépines 23</h2>
+                <h2 class='subtitle'>1004 Lausanne</h2>
+                <h2 class='subtitle'>021 648 7612 / 077 411 67 07</h2>
+
+
               </v-col>
             </v-row>
           </div>
