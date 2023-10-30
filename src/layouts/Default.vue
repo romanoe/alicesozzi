@@ -1,8 +1,6 @@
 <script setup>
 import { RouterView } from "vue-router";
 
-import imageTop from "@/assets/img/home_Fruitgrenade@2x.png"
-import imageBottom from "@/assets/img/AliceSozzi_plantes@2x.png"
 import Header from "@/components/Header.vue"
 import Footer from "@/components/Footer.vue"
 
@@ -13,13 +11,13 @@ import Footer from "@/components/Footer.vue"
   <div class="main-container">
     <!-- Backgroun image top-->
     <div class='img-background-header'>
-      <img src='/img/home_Fruitgrenade@2x.png' alt="grenades"/>
+      <img src='/img/home_Fruitgrenade@2x.webp' alt="grenades"/>
     </div>
     <Header />
     <RouterView />
     <Footer />
     <div class='img-background-footer'>
-      <img src='/img/AliceSozzi_plantes@2x.png' alt="plantes" />
+      <img src='/img/AliceSozzi_plantes@2x.webp' alt="plantes" />
     </div>
   </div>
 </template>

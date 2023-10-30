@@ -78,7 +78,7 @@ isMobile();
         </div>
       </v-col>
       <v-col cols=12  md=4 sm=1>
-        <v-img  src='/img/Groupe 1650@3x.png' aspect-ratio="1" contain alt="traitement-experience"></v-img>
+        <v-img  src='/img/Groupe_1650@3x.webp' aspect-ratio="1" contain alt="traitement-experience"></v-img>
           </v-col>
     </v-row>
 </v-container>
@@ -89,7 +89,7 @@ isMobile();
   <v-container>
     <v-row justify="center" align="center" >
       <v-col cols=12   md=6 sm=1>
-        <v-img id="img-traitement" src='/img/Groupe 1642@3x.png' aspect-ratio="2" contain alt="douleur-emotion"></v-img>
+        <v-img id="img-traitement" src='/img/Groupe_1642@3x.webp' aspect-ratio="2" contain alt="douleur-emotion"></v-img>
       </v-col>
       <v-col cols=12  md=6 sm=1>
         <h2 class='title-paragraph'>Une douleur liée à une émotion non exprimée.</h2> <br> <br>
@@ -104,7 +104,7 @@ isMobile();
 <v-container>
     <v-row justify="center"  align="center" id = "hidden">
       <v-col cols=12  md=6 sm=1>
-        <v-img id="corps-complice" src='/img/Groupe 1610@3x.png' aspect-ratio="2" contain alt="douleur-sans-douleur"></v-img>
+        <v-img id="corps-complice" src='/img/Groupe_1610@3x.webp' aspect-ratio="2" contain alt="douleur-sans-douleur"></v-img>
       </v-col>
       <v-col cols=12  md=6 sm=1>
         <h2 class='title-paragraph'> Une douleur sans douleur </h2> <br> <br>
@@ -119,7 +119,7 @@ isMobile();
   <v-container>
     <v-row  align="center" id = "hidden">
       <v-col cols=12 md=6 sm=1>
-        <v-img id="img-traitement" src='/img/Groupe 1651@3x.png' aspect-ratio="1.5" contain  alt="douleur-sans-choc"></v-img>
+        <v-img id="img-traitement" src='/img/Groupe_1651@3x.webp' aspect-ratio="1.5" contain  alt="douleur-sans-choc"></v-img>
       </v-col>
       <v-col cols=12  md=6 sm=1>
         <h2 class='title-paragraph'>Une douleur sans choc</h2> <br> <br>
@@ -138,7 +138,7 @@ isMobile();
   <v-container>
     <v-row justify="center" align="center" id = "hidden">
       <v-col cols=12   md=6 sm=1>
-        <v-img id="img-traitement" src='/img/Groupe 1651@3x.png' aspect-ratio="1.2" contain alt="douleur-emotion"></v-img>
+        <v-img id="img-traitement" src='/img/Groupe_1651@3x.webp' aspect-ratio="1.2" contain alt="douleur-emotion"></v-img>
       </v-col>
       <v-col cols=12  md=6 sm=1>
         <span class='title-paragraph'> Une douleur liée à une émotion non exprimée</span> <br> <br>
@@ -160,7 +160,7 @@ isMobile();
         <p class = 'bold' ><b>Par mon approche corporelle, je resensibilise les tissus et contribue à la restauration de la capacité sensorielle. </b></p>
       </v-col>
       <v-col cols=12  md=6 sm=1>
-        <v-img id="img-traitement" src='/img/Groupe 1610@3x.png' aspect-ratio="1.5" contain alt="douleur-sans-douleur"></v-img>
+        <v-img id="img-traitement" src='/img/Groupe_1610@3x.webp' aspect-ratio="1.5" contain alt="douleur-sans-douleur"></v-img>
       </v-col>
     </v-row>
   </v-container>
@@ -170,7 +170,7 @@ isMobile();
   <v-container>
     <v-row justify="center" align="center" id = "hidden">
       <v-col cols=12 md=6 sm=1>
-        <v-img  id="img-traitement" src='/img/Groupe 1642@3x.png' aspect-ratio="1.5" contain alt="douleur-sans-choc"></v-img>
+        <v-img  id="img-traitement" src='/img/Groupe_1642@3x.webp' aspect-ratio="1.5" contain alt="douleur-sans-choc"></v-img>
       </v-col>
       <v-col cols=12  md=6 sm=1>
         <span class='title-paragraph'>Une douleur sans choc</span> <br> <br>

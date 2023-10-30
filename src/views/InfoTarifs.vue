@@ -30,7 +30,7 @@
         <p>Je suis reconnue par <b>ASCA & RME</b> et remboursée par certaines assurances complémentaires.</p>
     </div>
   <v-container>
-  <v-img src='/img/Sozzi_papillon@3x.png' aspect-ratio="5" contain></v-img>
+  <v-img src='/img/Sozzi_papillon@3x.webp' aspect-ratio="5" contain></v-img>
 </v-container>
 </v-container>
 </div>

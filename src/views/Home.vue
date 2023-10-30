@@ -106,7 +106,7 @@
               </span></p>
           </v-col>
           <v-col cols=12 md=7 sm=7>
-            <v-img id="img-cabinet" src='/img/home_AliceSozzi@2x.png' aspect-ratio="1.5" contain alt="alice-sozzi"></v-img>
+            <v-img id="img-cabinet" src='/img/home_AliceSozzi@2x.webp' aspect-ratio="1.5" contain alt="alice-sozzi"></v-img>
           </v-col>
         </v-row>
       </div>
@@ -115,7 +115,7 @@
       <v-container>
         <v-row>
           <v-col cols=12 md=4 sm=6>
-            <v-img src='/img/Homme_alice_psy.png' aspect-ratio="2.5" contain alt="alice-psy"></v-img>
+            <v-img src='/img/Homme_alice_psy.webp' aspect-ratio="2.5" contain alt="alice-psy"></v-img>
           </v-col>
           <v-col cols=12 md=5 sm=6>
             <h2>QU'EST-CE QU'UN FASCIA?</h2>
@@ -140,7 +140,7 @@
       <v-container>
         <v-row justify="center" no-gutters>
           <v-col cols=12 md=4 sm=1>
-            <v-img id="img-actions" src='/img/AliceSozzi_equilibre@2x.png' aspect-ratio="1" contain alt="equilibre"></v-img>
+            <v-img id="img-actions" src='/img/AliceSozzi_equilibre@2x.webp' aspect-ratio="1" contain alt="equilibre"></v-img>
             <br>
             <div class='text-mes-actions'>
               <span class="text-alice texte-mes-actions">Rééquilibrer les fonctions et les propriétés des tissus,
@@ -149,7 +149,7 @@
             </div>
           </v-col>
           <v-col cols=12 md=4 sm=1 xs=1>
-            <v-img id="img-actions" src='/img/AliceSozzi_toucher@2x.png' aspect-ratio="1" contain alt="toucher"></v-img>
+            <v-img id="img-actions" src='/img/AliceSozzi_toucher@2x.webp' aspect-ratio="1" contain alt="toucher"></v-img>
             <br>
             <div class='text-mes-actions'>
               <span class="text-alice texte-mes-actions">Proposer un toucher spécifique, en me basant sur les propriétés
@@ -158,7 +158,7 @@
             </div>
           </v-col>
           <v-col cols=12 md=4 sm=1>
-            <v-img id="img-actions" src='/img/AliceSozzi_soulager@2x.png' aspect-ratio="1" contain alt="soulager"></v-img>
+            <v-img id="img-actions" src='/img/AliceSozzi_soulager@2x.webp' aspect-ratio="1" contain alt="soulager"></v-img>
             <br>
             <div class='text-mes-actions'>
               <span class="text-alice texte-mes-actions ">Soulager les douleurs et désenflammer. Retrouver sa mobilité et
@@ -176,7 +176,7 @@
       <v-container>
         <v-row justify="center">
           <v-col cols=12 md=4 sm=1>
-            <v-img id="img-actions" src='/img/AliceSozzi_fatigue@2x.png' aspect-ratio="1" contain alt="fatigue"></v-img>
+            <v-img id="img-actions" src='/img/AliceSozzi_fatigue@2x.webp' aspect-ratio="1" contain alt="fatigue"></v-img>
             <br>
             <div class='text-mes-actions'>
               <span class="text-alice texte-mes-actions ">Restaurer la sensibilité tissulaire lorsque le corps se
@@ -185,7 +185,7 @@
           </v-col>
 
           <v-col cols=12 md=4 sm=1>
-            <v-img id="img-actions" src='/img/AliceSozzi_restaurer@2x.png' aspect-ratio="1" contain alt="restaurer"></v-img>
+            <v-img id="img-actions" src='/img/AliceSozzi_restaurer@2x.webp' aspect-ratio="1" contain alt="restaurer"></v-img>
             <br>
             <div class='text-mes-actions'>
               <span class="text-alice texte-mes-actions ">Réorienter la personne vers une meilleure perception sensorielle
@@ -194,7 +194,7 @@
           </v-col>
 
           <v-col cols=12 md=4 sm=1>
-            <v-img id="img-actions" src='/img/AliceSozzi_questionner@2x.png' aspect-ratio="1" contain alt="questionner"></v-img>
+            <v-img id="img-actions" src='/img/AliceSozzi_questionner@2x.webp' aspect-ratio="1" contain alt="questionner"></v-img>
             <br>
             <div class='text-mes-actions'>
               <span class="text-alice texte-mes-actions ">Amener la personne à se questionner sur les comportements à

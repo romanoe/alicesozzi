@@ -27,7 +27,7 @@ isMobile();
           <div id="header">
             <v-row>
               <v-col cols=12 md=1 sm=1>
-                <v-img id='img-alice-header' src='/img/AliceSozzi.png' aspect-ratio="1" contain alt="alice-sozzi-favicon"></v-img>
+                <v-img id='img-alice-header' src='/img/AliceSozzi.webp' aspect-ratio="1" contain alt="alice-sozzi-favicon"></v-img>
               </v-col>
               <v-col cols=12 md=11 sm=1>
                 <h1 class='text-alice'>
