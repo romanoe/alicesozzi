@@ -95,3 +95,6 @@ sw.*
 # Designer material
 Alice_Site_new.xd
 BaT
+
+# Production folder
+dist
