@@ -14,11 +14,11 @@ const routes = [
     name: 'ACCUEIL',
     component: Home,
     meta: {
-      title: 'Alice Sozzi - Acceuil',
+      title: 'Alice Sozzi - Cabinet de fasciathérapie à Lausanne',
       metaTags: [
         {
           name: 'description',
-          content: "Page d'accueil de Alice Sozzi, fasciathérapeute à Lausanne"
+          content: "La fasciathérapie soigne la douleur par un toucher subtil en procurant une détente profonde. Plus de 20 ans de pratique. 7min de Lausanne Chauderon."
         }
       ]
     }
@@ -29,11 +29,11 @@ const routes = [
     name: 'LES TRAITEMENTS',
     component: Traitements,
     meta: {
-      title: 'Les traitements de fasciathérapie',
+      title: 'Comment je travaille en fasciathérapie ?',
       metaTags: [
         {
           name: 'description',
-          content: "Les différents traitements de fasciathérapie fournie par Alice Sozzi, fasciathérapeute à Lausanne "
+          content: "La complicité avec un corps se tisse en écoutant les demandes du corps. Le fasciathérapeute resensibilise les tissus et restaure la capacité sensorielle."
         }
       ]
     }
@@ -43,11 +43,11 @@ const routes = [
     name: "QU'EST-CE QU'UN FASCIA",
     component: Fascia,
     meta: {
-      title: "Qu'est-ce qu'un fascia ? Quel est son domaine d'application ?",
+      title: "Que soigne la fasciathérapie ?",
       metaTags: [
         {
           name: 'description',
-          content: "Description et définition d'un fascia ainsi que le domaines d'applications de la fasciathérapie menée par Alice Sozzi, fasciathérapeute à Lausanne"
+          content: "La fasciathérapie soigne la douleur: maux de dos et ventre, chocs physiques et émotionels, articulations, épaule gelée, torticolis, lumbago, épycondilite."
         }
       ]
     }
@@ -58,11 +58,11 @@ const routes = [
     name: 'MON PARCOURS',
     component: MonParcours,
     meta: {
-      title: "Le parcours professionnel d'Alice Sozzi, fasciathérapeute à LAusanne",
+      title: "Alice Sozzi - Fasciathérapeute à Lausanne",
       metaTags: [
         {
           name: 'description',
-          content: "Description des différentes étapes professionnelles d'Alice Sozzi, fasciathérapeute à Lausanne"
+          content: "Plus de 20 ans de pratique, fasciathérapeute et psychologue certifiée, j'allie corps, cœur et mental pour accompagner mes patients."
         }
       ]
     }
@@ -72,11 +72,11 @@ const routes = [
     name: 'INFORMATIONS ET TARIFS',
     component: InfoTarifs,
     meta: {
-      title: "Informations et tarifs",
+      title: "Tarif d’une séance de fasciathérapie",
       metaTags: [
         {
           name: 'description',
-          content: "Informations, tarifs et prix pour une séance de fasciathérapie menée par Alice Sozzi, fasciathérapeute à Lausanne"
+          content: "Une séance dure environ 1 heure et coûte CHF 120.- Je suis reconnue par ASCA & RME et remboursée par certaines assurances complémentaires."
         }
       ]
     }
