@@ -37,6 +37,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+package-lock.json
 
 # TypeScript v1 declaration files
 typings/
@@ -82,6 +83,7 @@ git reset --hard 4a155e5
 
 # IDE / Editor
 .idea
+.vscode
 
 # Service worker
 sw.*
@@ -98,3 +100,4 @@ BaT
 
 # Production folder
 dist
+
