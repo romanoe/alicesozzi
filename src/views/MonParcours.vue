@@ -43,8 +43,7 @@ table {
 
   <div class='section-title' >
     <h1 id='title'>PARCOURS INSOLITE D'UNE FASCIATHÉRAPEUTE</h1>
-    <h2 id="subtitle">Alice Sozzi - Fasciathérapeute à Lausanne</h2>
-    <h3 id="subtitle-3">Plus de 20 ans de pratique, fasciathérapeute et psychologue certifiée, j'allie corps, cœur et mental pour accompagner mes patients.</h3>
+    <h2 id="subtitle">Plus de 20 ans de pratique, fasciathérapeute et psychologue certifiée, j'allie corps, cœur et mental pour accompagner mes patients.</h2>
   
   </div>
 
@@ -63,24 +62,17 @@ table {
           éternuements, les mouvements pendant le sommeil, les rires, les pleurs etc.</p>
         <v-img id="hidden" src='/img/Groupe_1646@3x.webp' aspect-ratio="7" contain alt="oreille"></v-img>
   <p>La thérapie que je pratique depuis 26 ans maintenant dans mon cabinet de consultation à Lausanne se base sur des savoir-faire liés au corps et à la relation à l‘autre.</p>
-
-
-
-
-      </v-col>
+  </v-col>
       <v-col cols=12 md=4 sm=1>
         <v-img id="hidden" src='/img/Sozzi_Portrait.webp' aspect-ratio="1.5" contain alt="alice-portrait"></v-img>
-
         <br>
         <br>
         <br>
-
         <div class='text-center big-margins'>
           <span id='ma-profession'>« Alors que je me destinais à la profession de psychothérapeute, un détour par le corps m'a permis de développer des capacités à lire les indices que le corps donne, alors que la parole les tait »</span>
           <br>
           <br>
           <v-img id="hidden" src='/img/AliceSozzi_plante@3x.webp' aspect-ratio="2" contain alt="plante"></v-img>
-
         </div>
       </v-col>
 

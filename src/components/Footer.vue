@@ -8,6 +8,8 @@ const isMobile = () => {
   return mobile;
 }
 
+const year = new Date().getFullYear();
+
 isMobile();
 
 </script>
@@ -35,7 +37,7 @@ isMobile();
         </v-col>
 
         <div class="credits">
-          <span>©Cabinet de fasciathérapie Alice Sozzi, 2023. Tous droits réservés. Design: Shaolin-design</span>
+          <span>©Cabinet de fasciathérapie Alice Sozzi, {{year}}. Tous droits réservés. Design: Shaolin-design</span>
         </div>
       </v-row>
     </v-footer>
