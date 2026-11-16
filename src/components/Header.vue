@@ -1,15 +1,10 @@
 <script setup>
-import { ref } from "vue";
+import { useDisplay } from "vuetify";
 import router from "../router";
 
-let mobile = ref(false);
-
-const isMobile = () => {
-  mobile.value = screen.width <= 760 ? true : false;
-  return mobile;
-};
-
-isMobile();
+// Below Vuetify's "md" breakpoint (960px) the desktop menu is hidden,
+// so the mobile app bar takes over from there.
+const { smAndDown: mobile } = useDisplay();
 </script>
 
 <template>
@@ -20,7 +15,7 @@ isMobile();
         <router-link to="/">
           <div id="header">
             <v-row>
-              <v-col cols="12" md="1" sm="1">
+              <v-col cols="12" md="1">
                 <v-img
                   id="img-alice-header"
                   src="/img/AliceSozzi.webp"
@@ -29,7 +24,7 @@ isMobile();
                   alt="alice-sozzi-favicon"
                 ></v-img>
               </v-col>
-              <v-col cols="12" md="11" sm="1">
+              <v-col cols="12" md="11">
                 <h2 class="text-alice header-title">
                   CABINET DE FASCIATHÉRAPIE ALICE SOZZI
                 </h2>
@@ -66,34 +61,35 @@ isMobile();
     </div>
 
     <!-- Menu mobile -->
-    <div v-else-if="mobile" id="header">
-      <v-app-bar :elevation="1" scroll-behavior="collapse elevate">
-        <v-menu location="bottom">
+    <div v-else class="mobile-header-spacer">
+      <v-app-bar :elevation="1" height="72" class="mobile-bar">
+        <v-menu location="bottom start">
           <template v-slot:activator="{ props }">
-            <v-btn color="#c7287d" v-bind="props">
+            <v-btn
+              icon
+              variant="text"
+              color="#c7287d"
+              aria-label="Menu"
+              v-bind="props"
+            >
               <font-awsome-icon icon="fa-solid fa-bars" class="icon" />
             </v-btn>
           </template>
-          <v-list>
+          <v-list class="mobile-nav">
             <v-list-item
               v-for="(route, index) in router.options.routes"
               :key="index"
-            >
-              <ul>
-                <router-link :to="route.path">
-                  <li>{{ route.name }}</li>
-                </router-link>
-              </ul>
-            </v-list-item>
+              :to="route.path"
+              :title="route.name"
+            />
           </v-list>
         </v-menu>
-        <v-app-bar-title>
-          <h2 class="header-title">ALICE SOZZI</h2>
-          <div id="contact-block">
-            <h4 class="subtitle-mobile">FASCIATHÉRAPEUTE ET PSYCHOLOGUE</h4>
-            <h4 class="subtitle-mobile">AGRÉE ASCA, RME</h4>
-          </div>
-        </v-app-bar-title>
+        <router-link to="/" class="mobile-brand">
+          <span class="mobile-brand-title">ALICE SOZZI</span>
+          <span class="mobile-brand-subtitle"
+            >Fasciathérapeute et psychologue · ASCA, RME</span
+          >
+        </router-link>
       </v-app-bar>
     </div>
   </div>
@@ -134,14 +130,46 @@ isMobile();
   display: block;
 }
 
-.title-mobile {
-  font-weight: bold;
-  font-size: 1rem;
+.mobile-header-spacer {
+  height: 88px;
 }
 
-.subtitle-mobile {
-  font-weight: 300;
-  font-size: 1.2rem;
+header.mobile-bar {
+  height: 72px !important;
+}
+
+.mobile-bar .v-toolbar__content {
+  height: 72px !important;
+  padding-inline: 4px 16px;
+}
+
+.mobile-brand {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  margin-left: 4px;
+  line-height: 1.2;
+}
+
+.mobile-brand-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #c7287d;
+}
+
+.mobile-brand-subtitle {
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #834b99;
+}
+
+.mobile-nav .v-list-item-title {
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #c7287d;
 }
 
 #header {

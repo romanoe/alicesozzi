@@ -27,6 +27,7 @@ library.add(faBars);
 const vuetify = createVuetify({
     components,
     directives,
+    theme: { defaultTheme: 'light' },
   })
   
 

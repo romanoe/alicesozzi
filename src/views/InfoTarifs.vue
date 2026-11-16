@@ -22,7 +22,7 @@
         <h2 class="subtitle">Tarif d'une séance de fasciathérapie</h2>
       </div>
       <div class="info-tarif">
-        <p>Une séance dure environ 1 heure et coute <b>120.-</b>.</p>
+        <p>Une séance dure environ 1 heure et coute <b>130.-</b>.</p>
         <p>
           Je suis reconnue par <b>ASCA & RME</b> et remboursée par certaines
           assurances complémentaires.

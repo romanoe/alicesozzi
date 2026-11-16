@@ -20,8 +20,8 @@
         <h1 class="title">QUE SOIGNE LA FASCIATHÉRAPIE ?</h1>
         <h2 class="subtitle">
           La fasciathérapie soigne la douleur: maux de dos et ventre, chocs
-          physiques et émotionels, articulations, épaule gelée, torticolis,
-          lumbago, épycondilite.
+          physiques et émotionnels, articulations, épaule gelée, torticolis,
+          lumbago, épicondylite.
         </h2>
       </div>
 

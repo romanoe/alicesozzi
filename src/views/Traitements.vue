@@ -1,14 +1,7 @@
 <script setup>
-import { ref } from "vue";
+import { useDisplay } from "vuetify";
 
-let mobile = ref(false);
-
-const isMobile = () => {
-  mobile.value = screen.width <= 760 ? true : false;
-  return mobile;
-};
-
-isMobile();
+const { smAndDown: mobile } = useDisplay();
 </script>
 
 <style>
@@ -32,7 +25,7 @@ isMobile();
 }
 
 .title-paragraph {
-  font-size: 2.8rem;
+  font-size: clamp(1.625rem, 1.06rem + 2.32vw, 2.8rem);
   font-weight: 800;
   color: #834b99;
   text-transform: uppercase;
@@ -61,7 +54,7 @@ isMobile();
         </div>
       </div>
       <v-row justify="center" align="center" id="hidden">
-        <v-col cols="12" md="8" sm="1">
+        <v-col cols="12" md="8">
           <div id="description-soins">
             <p id="pink">
               Mon expérience m’a appris à utiliser le fascia, ce tissu
@@ -91,7 +84,7 @@ isMobile();
             </p>
           </div>
         </v-col>
-        <v-col cols="12" md="4" sm="1">
+        <v-col cols="12" md="4">
           <v-img
             src="/img/Groupe_1650@3x.webp"
             aspect-ratio="1"
@@ -105,7 +98,7 @@ isMobile();
     <div v-if="mobile">
       <v-container>
         <v-row justify="center" align="center">
-          <v-col cols="12" md="6" sm="1">
+          <v-col cols="12" md="6">
             <v-img
               id="img-traitement"
               src="/img/Groupe_1642@3x.webp"
@@ -114,7 +107,7 @@ isMobile();
               alt="douleur-emotion"
             ></v-img>
           </v-col>
-          <v-col cols="12" md="6" sm="1">
+          <v-col cols="12" md="6">
             <h2 class="title-paragraph">
               Une douleur liée à une émotion non exprimée.
             </h2>
@@ -143,16 +136,16 @@ isMobile();
 
       <v-container>
         <v-row justify="center" align="center" id="hidden">
-          <v-col cols="12" md="6" sm="1">
+          <v-col cols="12" md="6">
             <v-img
-              id="corps-complice"
+              id="img-traitement"
               src="/img/Groupe_1610@3x.webp"
               aspect-ratio="2"
               contain
               alt="douleur-sans-douleur"
             ></v-img>
           </v-col>
-          <v-col cols="12" md="6" sm="1">
+          <v-col cols="12" md="6">
             <h2 class="title-paragraph">Une douleur sans douleur</h2>
             <br />
             <br />
@@ -176,7 +169,7 @@ isMobile();
 
       <v-container>
         <v-row align="center" id="hidden">
-          <v-col cols="12" md="6" sm="1">
+          <v-col cols="12" md="6">
             <v-img
               id="img-traitement"
               src="/img/Groupe_1651@3x.webp"
@@ -185,7 +178,7 @@ isMobile();
               alt="douleur-sans-choc"
             ></v-img>
           </v-col>
-          <v-col cols="12" md="6" sm="1">
+          <v-col cols="12" md="6">
             <h2 class="title-paragraph">Une douleur sans choc</h2>
             <br />
             <br />
@@ -216,7 +209,7 @@ isMobile();
     <div v-else-if="!mobile">
       <v-container>
         <v-row justify="center" align="center" id="hidden">
-          <v-col cols="12" md="6" sm="1">
+          <v-col cols="12" md="6">
             <v-img
               id="img-traitement"
               src="/img/Groupe_1651@3x.webp"
@@ -225,7 +218,7 @@ isMobile();
               alt="douleur-emotion"
             ></v-img>
           </v-col>
-          <v-col cols="12" md="6" sm="1">
+          <v-col cols="12" md="6">
             <span class="title-paragraph">
               Une douleur liée à une émotion non exprimée</span
             >
@@ -255,7 +248,7 @@ isMobile();
 
       <v-container>
         <v-row justify="center" align="center" id="hidden">
-          <v-col cols="12" md="6" sm="1">
+          <v-col cols="12" md="6">
             <span class="title-paragraph"> Une douleur sans douleur </span>
             <br />
             <br />
@@ -274,7 +267,7 @@ isMobile();
               </b>
             </p>
           </v-col>
-          <v-col cols="12" md="6" sm="1">
+          <v-col cols="12" md="6">
             <v-img
               id="img-traitement"
               src="/img/Groupe_1610@3x.webp"
@@ -288,7 +281,7 @@ isMobile();
 
       <v-container>
         <v-row justify="center" align="center" id="hidden">
-          <v-col cols="12" md="6" sm="1">
+          <v-col cols="12" md="6">
             <v-img
               id="img-traitement"
               src="/img/Groupe_1642@3x.webp"
@@ -297,7 +290,7 @@ isMobile();
               alt="douleur-sans-choc"
             ></v-img>
           </v-col>
-          <v-col cols="12" md="6" sm="1">
+          <v-col cols="12" md="6">
             <span class="title-paragraph">Une douleur sans choc</span> <br />
             <br />
             <p>

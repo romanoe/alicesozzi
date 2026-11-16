@@ -8,7 +8,7 @@ hidden
 
 #ma-profession {
   color: #50c1a3;
-  font-size: 1.5rem;
+  font-size: clamp(1.125rem, 0.95rem + 0.75vw, 1.5rem);
 }
 
 .section-title {
@@ -35,6 +35,26 @@ table {
 .big-margins {
   margin: 10% 10% 10% 10%;
 }
+
+@media (max-width: 599px) {
+  #cv table {
+    width: 100%;
+    border-spacing: 0 0.5rem;
+  }
+
+  #cv th {
+    vertical-align: top;
+  }
+
+  #cv th:first-child {
+    white-space: nowrap;
+    padding-right: 1rem;
+  }
+
+  #cv th p {
+    margin: 0;
+  }
+}
 </style>
 
 <template>
@@ -49,7 +69,7 @@ table {
 
     <v-container>
       <v-row justify="center">
-        <v-col cols="12" md="8" sm="1">
+        <v-col cols="12" md="8">
           <p>
             Lors de mon cursus de psychologie à l’Université de Genève, j’ai été
             attirée par les enseignements qui prenaient en compte l’aspect
@@ -102,7 +122,7 @@ table {
             au corps et à la relation à l‘autre.
           </p>
         </v-col>
-        <v-col cols="12" md="4" sm="1">
+        <v-col cols="12" md="4">
           <v-img
             id="hidden"
             src="/img/Sozzi_Portrait.webp"
@@ -139,6 +159,7 @@ table {
       <v-row>
         <div id="cv">
           <table>
+            <tbody>
             <tr>
               <th>
                 <p><b>1990</b></p>
@@ -198,6 +219,7 @@ table {
                 <p class="thin">Pratique du Seïtai et Mouvement régénérateur</p>
               </th>
             </tr>
+            </tbody>
           </table>
         </div>
       </v-row>

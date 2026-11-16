@@ -23,15 +23,17 @@ html {
 }
 
 .title {
-  font-size: 3.8rem;
+  /* fluid: ~30px on phones → 60.8px from ~1200px */
+  font-size: clamp(1.75rem, 0.95rem + 3.8vw, 3.8rem);
   font-weight: 600;
   color: #c7287d;
-  letter-spacing: 0.1em;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.13em;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .subtitle {
-  font-size: 1.7rem;
+  font-size: clamp(1.125rem, 0.85rem + 1.14vw, 1.7rem);
   text-transform: uppercase;
   font-weight: 300;
   color: #834b99;
@@ -65,7 +67,21 @@ a {
 
 p {
   color: #834b99;
-  font-size: 1.8rem;
+  /* fluid: 17px on phones → 28.8px from ~1200px */
+  font-size: clamp(1.0625rem, 0.7rem + 1.46vw, 1.8rem);
+  line-height: 1.5;
+}
+
+@media (max-width: 599px) {
+  .title,
+  .title-paragraph {
+    line-height: 1.25;
+  }
+
+  .subtitle {
+    width: 100%;
+    padding-inline: 16px;
+  }
 }
 
 header {

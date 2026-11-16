@@ -1,13 +1,13 @@
 <style>
 #text-home-page {
   color: #834b99;
-  font-size: 2.5rem;
+  font-size: clamp(1.375rem, 0.83rem + 2.22vw, 2.5rem);
   line-height: 1.2em;
   font-weight: 300;
 }
 
 #title-home-page {
-  font-size: 4rem;
+  font-size: clamp(1.875rem, 0.85rem + 4.2vw, 4rem);
   font-weight: 600;
   color: #c7287d;
   letter-spacing: 0.1em;
@@ -20,8 +20,8 @@
   text-transform: uppercase;
   opacity: 1;
   font-weight: 900;
-  padding-top: 3vw;
-  padding-bottom: 3vw;
+  padding-top: max(3vw, 1.5rem);
+  padding-bottom: max(3vw, 1.5rem);
   line-height: 3vh;
 }
 
@@ -47,7 +47,7 @@
   color: #c7287d;
   letter-spacing: 1.3px;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: clamp(1.75rem, 1.39rem + 1.48vw, 2.5rem);
 }
 
 .section-title.desktop,
@@ -92,7 +92,18 @@
   text-transform: uppercase;
   opacity: 1;
   font-weight: 800;
-  font-size: 1.4rem;
+  font-size: clamp(1.0625rem, 0.9rem + 0.67vw, 1.4rem);
+}
+
+@media (max-width: 599px) {
+  .intro {
+    margin-top: 1rem;
+  }
+
+  .text-mes-actions {
+    width: 100%;
+    max-width: 32rem;
+  }
 }
 </style>
 
@@ -101,7 +112,7 @@
     <v-container>
       <div class="intro">
         <v-row justify="center" align="start">
-          <v-col cols="12" md="5" sm="5">
+          <v-col cols="12" md="5">
             <h1 id="title-home-page">LA FASCIATHÉRAPIE</h1>
             <p>
               <span id="text-home-page"
@@ -115,7 +126,7 @@
             </p>
             <br />
           </v-col>
-          <v-col cols="12" md="7" sm="7">
+          <v-col cols="12" md="7">
             <v-img
               id="img-cabinet"
               src="/img/home_AliceSozzi@2x.webp"
@@ -162,7 +173,7 @@
       <br />
       <v-container>
         <v-row justify="center" no-gutters>
-          <v-col cols="12" md="4" sm="1">
+          <v-col cols="12" md="4">
             <v-img
               id="img-actions"
               src="/img/AliceSozzi_equilibre@2x.webp"
@@ -179,7 +190,7 @@
               </span>
             </div>
           </v-col>
-          <v-col cols="12" md="4" sm="1" xs="1">
+          <v-col cols="12" md="4">
             <v-img
               id="img-actions"
               src="/img/AliceSozzi_toucher@2x.webp"
@@ -196,7 +207,7 @@
               </span>
             </div>
           </v-col>
-          <v-col cols="12" md="4" sm="1">
+          <v-col cols="12" md="4">
             <v-img
               id="img-actions"
               src="/img/AliceSozzi_soulager@2x.webp"
@@ -220,7 +231,7 @@
 
       <v-container>
         <v-row justify="center">
-          <v-col cols="12" md="4" sm="1">
+          <v-col cols="12" md="4">
             <v-img
               id="img-actions"
               src="/img/AliceSozzi_fatigue@2x.webp"
@@ -238,7 +249,7 @@
             </div>
           </v-col>
 
-          <v-col cols="12" md="4" sm="1">
+          <v-col cols="12" md="4">
             <v-img
               id="img-actions"
               src="/img/AliceSozzi_restaurer@2x.webp"
@@ -255,7 +266,7 @@
             </div>
           </v-col>
 
-          <v-col cols="12" md="4" sm="1">
+          <v-col cols="12" md="4">
             <v-img
               id="img-actions"
               src="/img/AliceSozzi_questionner@2x.webp"

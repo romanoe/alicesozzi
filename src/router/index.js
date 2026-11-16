@@ -5,28 +5,20 @@ import InfoTarifs from "@/views/InfoTarifs.vue";
 import Traitements from "@/views/Traitements.vue";
 import MonParcours from "@/views/MonParcours.vue";
 
+export const SITE_URL = 'https://www.alicesozzi.ch';
+const SITE_NAME = 'Alice Sozzi';
+const DEFAULT_KEYWORDS = 'fasciathérapie, fasciathérapeute, fascia, fascias, Lausanne, Vaud, Chauderon, Alice Sozzi, ASCA, RME';
+
 const routes = [
   {
-    path: '/public',
-    component: () => import('@/layouts/Default.vue'),
-
     path: '/',
     name: 'ACCUEIL',
     component: Home,
     meta: {
       title: 'Alice Sozzi - Cabinet de fasciathérapie à Lausanne',
-      metaTags: [
-        {
-          name: 'description',
-          content: "La fasciathérapie soigne la douleur par un toucher subtil en procurant une détente profonde. Plus de 20 ans de pratique. 7min de Lausanne Chauderon."
-        },
-        {
-          name: 'keywords',
-          content: 'fasciathérapie, fasciathérapeute, fascia, fascias, Lausanne, Vaud, Chauderon, Alice Sozzi, ASCA, RME'
-        }
-      ]
+      description: "La fasciathérapie soigne la douleur par un toucher subtil en procurant une détente profonde. Plus de 20 ans de pratique. 7 min de Lausanne Chauderon.",
+      keywords: `${DEFAULT_KEYWORDS}, psychologue, douleur, thérapie manuelle`,
     }
-
   },
   {
     path: '/traitements',
@@ -34,16 +26,8 @@ const routes = [
     component: Traitements,
     meta: {
       title: 'Comment je travaille en fasciathérapie ?',
-      metaTags: [
-        {
-          name: 'description',
-          content: "La complicité avec un corps se tisse en écoutant les demandes du corps. Le fasciathérapeute resensibilise les tissus et restaure la capacité sensorielle."
-        },
-        {
-          name: 'keywords',
-          content: 'fasciathérapie, fasciathérapeute, fascia, fascias, Lausanne, Vaud, Chauderon, Alice Sozzi, ASCA, RME'
-        }
-      ]
+      description: "La complicité avec un corps se tisse en écoutant les demandes du corps. Le fasciathérapeute resensibilise les tissus et restaure la capacité sensorielle.",
+      keywords: `${DEFAULT_KEYWORDS}, traitement, douleur chronique, émotions, détente`,
     }
   },
   {
@@ -52,35 +36,18 @@ const routes = [
     component: Fascia,
     meta: {
       title: "Que soigne la fasciathérapie ?",
-      metaTags: [
-        {
-          name: 'description',
-          content: "La fasciathérapie soigne la douleur: maux de dos et ventre, chocs physiques et émotionels, articulations, épaule gelée, torticolis, lumbago, épycondilite."
-        },
-        {
-          name: 'keywords',
-          content: 'fasciathérapie, fasciathérapeute, fascia, fascias, Lausanne, Vaud, Chauderon, Alice Sozzi, ASCA, RME'
-        }
-      ]
+      description: "La fasciathérapie soigne la douleur: maux de dos et ventre, chocs physiques et émotionnels, articulations, épaule gelée, torticolis, lumbago, épicondylite.",
+      keywords: `${DEFAULT_KEYWORDS}, mal de dos, torticolis, lumbago, épaule gelée, articulations`,
     }
   },
-
   {
     path: '/mon-parcours',
     name: 'MON PARCOURS',
     component: MonParcours,
     meta: {
       title: "Alice Sozzi - Fasciathérapeute à Lausanne",
-      metaTags: [
-        {
-          name: 'description',
-          content: "Plus de 20 ans de pratique, fasciathérapeute et psychologue certifiée, j'allie corps, cœur et mental pour accompagner mes patients."
-        },
-        {
-          name: 'keywords',
-          content: 'fasciathérapie, fasciathérapeute, fascia, fascias, Lausanne, Vaud, Chauderon, Alice Sozzi, ASCA, RME'
-        }
-      ]
+      description: "Plus de 20 ans de pratique, fasciathérapeute et psychologue certifiée, j'allie corps, cœur et mental pour accompagner mes patients.",
+      keywords: `${DEFAULT_KEYWORDS}, psychologue, méthode Danis Bois, Seïtai, Mouvement régénérateur`,
     }
   },
   {
@@ -89,75 +56,62 @@ const routes = [
     component: InfoTarifs,
     meta: {
       title: "Tarif d’une séance de fasciathérapie",
-      metaTags: [
-        {
-          name: 'description',
-          content: "Une séance dure environ 1 heure et coûte CHF 120.- Je suis reconnue par ASCA & RME et remboursée par certaines assurances complémentaires."
-        },
-        {
-          name: 'keywords',
-          content: 'fasciathérapie, fasciathérapeute, fascia, fascias, Lausanne, Vaud, Chauderon, Alice Sozzi, ASCA, RME'
-        }
-      ]
+      description: "Une séance dure environ 1 heure et coûte CHF 130.- Je suis reconnue par ASCA & RME et remboursée par certaines assurances complémentaires.",
+      keywords: `${DEFAULT_KEYWORDS}, tarif, prix, assurance complémentaire, remboursement`,
     }
   }
-
-]
-  ;
+];
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: routes,
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior() {
     return { top: 0 };
   },
-
 });
 
+// ---- SEO: keep <head> in sync with the current page ----
+// index.html holds the default tags (read by social networks, which don't run JS);
+// here we only update their content so there are never duplicates.
 
-// ---- Digital Ocean https://www.digitalocean.com/community/tutorials/vuejs-vue-router-modify-head ----
-// This callback runs before every route change, including on page load.
-router.beforeEach((to, from, next) => {
-  // This goes through the matched routes from last to first, finding the closest route with a title.
-  // e.g., if we have `/some/deep/nested/route` and `/some`, `/deep`, and `/nested` have titles,
-  // `/nested`'s will be chosen.
-  const nearestWithTitle = to.matched.slice().reverse().find(r => r.meta && r.meta.title);
-
-  // Find the nearest route element with meta tags.
-  const nearestWithMeta = to.matched.slice().reverse().find(r => r.meta && r.meta.metaTags);
-
-  const previousNearestWithMeta = from.matched.slice().reverse().find(r => r.meta && r.meta.metaTags);
-
-  // If a route with a title was found, set the document (page) title to that value.
-  if(nearestWithTitle) {
-    document.title = nearestWithTitle.meta.title;
-  } else if(previousNearestWithMeta) {
-    document.title = previousNearestWithMeta.meta.title;
+function setMeta(attr, key, content) {
+  let el = document.head.querySelector(`meta[${attr}="${key}"]`);
+  if (!el) {
+    el = document.createElement('meta');
+    el.setAttribute(attr, key);
+    document.head.appendChild(el);
   }
+  el.setAttribute('content', content);
+}
 
-  // Remove any stale meta tags from the document using the key attribute we set below.
-  Array.from(document.querySelectorAll('[data-vue-router-controlled]')).map(el => el.parentNode.removeChild(el));
+function setLink(rel, href, extra = '') {
+  let el = document.head.querySelector(`link[rel="${rel}"]${extra}`);
+  if (!el) {
+    el = document.createElement('link');
+    el.setAttribute('rel', rel);
+    document.head.appendChild(el);
+  }
+  el.setAttribute('href', href);
+}
 
-  // Skip rendering meta tags if there are none.
-  if(!nearestWithMeta) return next();
+router.afterEach((to) => {
+  const { title, description, keywords } = to.meta;
+  if (!title) return;
 
-  // Turn the meta tag definitions into actual elements in the head.
-  nearestWithMeta.meta.metaTags.map(tagDef => {
-    const tag = document.createElement('meta');
+  const fullTitle = title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
+  const url = SITE_URL + (to.path === '/' ? '/' : to.path);
 
-    Object.keys(tagDef).forEach(key => {
-      tag.setAttribute(key, tagDef[key]);
-    });
+  document.title = fullTitle;
+  setMeta('name', 'description', description);
+  setMeta('name', 'keywords', keywords);
+  setLink('canonical', url);
+  setLink('alternate', url, '[hreflang="fr-CH"]');
 
-    // We use this to track which meta tags we create so we don't interfere with other ones.
-    tag.setAttribute('data-vue-router-controlled', '');
-
-    return tag;
-  })
-  // Add the meta tags to the document head.
-  .forEach(tag => document.head.appendChild(tag));
-
-  next();
+  setMeta('property', 'og:title', fullTitle);
+  setMeta('property', 'og:description', description);
+  setMeta('property', 'og:url', url);
+  setMeta('name', 'twitter:title', fullTitle);
+  setMeta('name', 'twitter:description', description);
 });
 
 export default router;
